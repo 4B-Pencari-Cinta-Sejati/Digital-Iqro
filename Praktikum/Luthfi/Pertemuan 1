@@ -1,0 +1,57 @@
+Nama: Luthfiyah Ramadhani
+Kelas: 4B
+Nim: 2403015058
+
+Pertemuan 1 – Pengenalan Rekayasa Perangkat Lunak dan Proyek
+ANALYST 
+Nama kelompok :
+1. Abdullah Nawap Lukman
+2. Ariq Gusmila
+3. Luthfiyah Ramadhani
+4. Gifta Ananda Aghnaa
+5. Dede Amelia Rahman
+
+Tujuan 
+Mahasiswa memahami konsep dasar RPL dan ruang lingkup proyek yang akan dikerjakan selama satu semester.
+
+Teori Singkat 
+Rekayasa Perangkat Lunak (RPL) adalah disiplin ilmu yang membahas pendekatan sistematis, terstruktur, dan terukur dalam pengembangan, pengoperasian, dan pemeliharaan perangkat lunak. Fokus utama RPL adalah kualitas, efisiensi, dan keberlanjutan software.
+
+Bahan dan Alat
+• Modul RPL 
+• Laptop 
+• Text editor / IDE (VS Code / IntelliJ)
+ • Git dan GitHub/GitLab 
+• Browser
+
+Studi Kasus
+Nama sistem : DIGIRO
+Target pengguna : Civitas Akademia (Dosen, Guru, Siswa, Mahasiswa, dsb)
+Permasalahan: Sulitnya menemukan buku secara manual dan cepat untuk menunjang kegemaran literasi membuat menurunnya daya minat baca karena dianggap merepotkan untuk mengetahui dan mencari tau bacaan yang tepat.
+Tujuan sistem : 
+Tujuan sistem ini dibuat karena adanya beberapa faktor permasalahan yang ada pada civitas akademika yang terkandala dalam mencari buku, mencari untuk bahan sitasi, dan untuk sekedar membaca buku yang di inginkan. Sistem ini dapat mempermudah penggunakan untuk menemukan judul, penulis, penerbit, genre, hingga tahun terbit walau data ada dalam jumlah besar
+
+Langkah-langkah membuat github
+1, Persiapkan akun google yang ingin di gunakan, hal ini mempermudah login karena tidak perlu mengingat satu-persatu password akun
+2. Buka pada browser, dengan mengetikan keyword “Github” pada laman paling awal terdapat website dengan url https://github.com/
+3. Setelah menemukan laman tersebut, klik tulisan “sign in” untuk memulai membuat akun github
+4. Masuk melalui google, lalu setelah muncul tampilan berhasil maka;
+     a. buat username
+     b. pilih negara
+     c. jika ingin mendapatkan refrensi dari github bisa klik centang pada kolom “Email preferences” 
+     d. lalu klik “buat akun” dan github telah selesai dibuat
+
+Membuat Repository pada github
+1.	Setelah akun github telah selesai dibuat akan muncul pada tampilan awal disebelah kiri bertulisan “buat repository”
+2.	Lalu tahap selanjutnya adalah mengisi data yang ingin dipakai untuk repository
+a.	Nama repository
+b.	Deskripsi
+c.	Pada tahap configuration 
+“Choose visibility” pilih public/private sesuai kebutuhan
+“Add README’ pilih klik on
+d.	Setelah itu create repository maka sudah selesai
+e.	Jika ingin menambahkan file bisa klik “README” lalu tekan + pada button sebelah kiri
+f.	Berikan nama file, dan isi file
+g.	File baru telah selesai dibuat pada repository
+h.	Tahap ini berulang, dan jika ingin menambahkan tim maka bisa invite pada laman pencarian dan invite ke dalam repository
+i.	Jika team ingin mengerjakan yang sama, maka bisa dijadikan admin
