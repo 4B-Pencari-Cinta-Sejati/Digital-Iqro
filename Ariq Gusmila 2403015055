@@ -1,74 +1,45 @@
 Pertemuan 1 – Pengenalan Rekayasa Perangkat Lunak dan Proyek
-
-ANALYST
-
-Nama Kelompok:
-
-Abdullah Nawap Lukman
-
-Ariq Gusmila
-
-Luthfiyah Ramadhani
-
-Gifta Ananda Aghnaa
-
-Dede Amelia Rahman
-
+ANALYST  
+Nama kelompok :
+1. Abdullah Nawap Lukman
+2. Ariq Gusmila
+3. Luthfiyah Ramadhani
+4. Gifta Ananda Aghnaa
+5. Dede Amelia Rahman
 Tujuan:
-Mahasiswa diharapkan memahami konsep dasar Rekayasa Perangkat Lunak (RPL) serta ruang lingkup proyek yang akan dijalankan selama satu semester.
-
-Teori Singkat:
-Rekayasa Perangkat Lunak (RPL) merupakan disiplin ilmu yang mempelajari pendekatan yang sistematis, terstruktur, dan terukur dalam pengembangan, penggunaan, dan pemeliharaan perangkat lunak. Fokus utama RPL adalah memastikan kualitas, efisiensi, dan keberlanjutan perangkat lunak.
-
+Mahasiswa diharapkan dapat memahami konsep dasar Rekayasa Perangkat Lunak (RPL) serta ruang lingkup proyek yang akan dilaksanakan selama satu semester penuh.
+Teori singkat:
+Rekayasa Perangkat Lunak (RPL) adalah bidang ilmu yang mempelajari pendekatan yang sistematis, terstruktur, dan terukur dalam pengembangan, pengoperasian, serta pemeliharaan perangkat lunak. RPL menekankan pentingnya kualitas, efisiensi, dan keberlanjutan dari sistem perangkat lunak sehingga dapat digunakan secara optimal dalam jangka panjang.
 Nama Sistem:
 DIGIRO
-
 Permasalahan:
-Masih banyak perpustakaan yang melakukan pencatatan manual untuk pengelolaan data buku dan peminjaman, sehingga prosesnya kurang efisien dan rawan kesalahan. Oleh karena itu, dibutuhkan sistem perpustakaan digital yang dapat mempermudah pengelolaan data dan meningkatkan efisiensi layanan.
-
+Masih banyak perpustakaan yang menggunakan metode pencatatan manual untuk mengelola data buku dan proses peminjaman. Sistem manual ini sering menimbulkan kesalahan, memakan waktu, dan kurang efisien. Oleh karena itu, dibutuhkan sebuah aplikasi digital berbasis web yang mampu mempermudah pengelolaan data perpustakaan dan meningkatkan kecepatan serta akurasi layanan bagi pengguna.
 Tujuan Sistem:
-Sistem ini bertujuan mempermudah pengelolaan data buku dan proses peminjaman, serta memberikan akses literasi yang lebih mudah bagi civitas akademik melalui platform perpustakaan berbasis web.
-
+Sistem DIGIRO dikembangkan untuk mempermudah pengelolaan data buku dan peminjaman, serta menyediakan akses literasi yang lebih mudah bagi civitas akademik melalui platform digital. Dengan sistem ini, proses pengelolaan perpustakaan menjadi lebih efisien, terstruktur, dan mudah diakses.
 Target Pengguna:
-Civitas akademik dan institusi pendidikan.
-
-Langkah-Langkah
-
-Membuat Akun GitHub
-
-Buka situs GitHub melalui browser di alamat https://github.com
-.
-
-Klik tombol Sign Up untuk mendaftar akun baru.
-
-Isi data yang diperlukan, seperti:
-
+Sistem ini ditujukan bagi civitas akademik dan instansi pendidikan yang membutuhkan akses cepat dan efisien terhadap data buku dan layanan peminjaman.
+ Langkah-langkah 
+ Membuat Akun GitHub
+1. Membuka website GitHub melalui browser di alamat https://github.com
+2. Klik tombol Sign Up untuk membuat akun baru.
+3. Mengisi data yang diperlukan seperti:
 Email
-
 Username
-
 Password
-
-Lakukan verifikasi email hingga akun aktif dan dapat digunakan.
+4. Melakukan verifikasi email hingga akun berhasil dibuat dan dapat digunakan.
 
 Membuat Repository
-
-Masuk ke akun GitHub.
-
-Klik ikon "+" di pojok kanan atas dan pilih New Repository.
-
-Isi informasi repository, seperti:
-
-Nama Repository: ordino
-
-Pilih opsi Public agar repository dapat diakses secara umum.
-
-Centang opsi Add README file.
-
-Klik Create Repository untuk membuat repository baru.
+1. Login ke akun GitHub.
+2. Klik tombol "+" di pojok kanan atas halaman.
+3. Pilih menu New Repository.
+4. Mengisi informasi repository:
+Repository Name: ordino
+5. Memilih opsi Public agar repository dapat diakses secara umum.
+6. Mencentang opsi Add README file.
+7. Klik Create Repository untuk membuat repository baru.
 
 Hasil:
-Repository bernama Digiro berhasil dibuat di GitHub dan siap digunakan sebagai tempat penyimpanan dan pengelolaan proyek perangkat lunak berbasis web.
+Repository dengan nama Digiro berhasil dibuat di GitHub. Repository ini dapat digunakan sebagai media penyimpanan dan pengelolaan proyek perangkat lunak berbasis web secara terstruktur dan aman.
 
 Kesimpulan:
-Dari kegiatan yang dilakukan, dapat disimpulkan bahwa GitHub dapat dimanfaatkan untuk membuat repository yang berfungsi sebagai media penyimpanan dan pengelolaan proyek perangkat lunak secara terstruktur dan dapat diakses secara online.
+Dari kegiatan yang dilakukan, dapat disimpulkan bahwa GitHub merupakan platform yang efektif untuk membuat dan mengelola repository. Dengan menggunakan GitHub, mahasiswa dapat menyimpan, mengelola, dan mengembangkan proyek perangkat lunak secara terstruktur serta dapat diakses kapan saja dan di mana saja secara online.
