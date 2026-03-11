@@ -1,1 +1,45 @@
+Pertemuan 1 – Pengenalan Rekayasa Perangkat Lunak dan Proyek
+ANALYST 
+Nama kelompok :
+1. Abdullah Nawap Lukman
+2. Ariq Gusmila
+3. Luthfiyah Ramadhani
+4. Gifta Ananda Aghnaa
+5. Dede Amelia Rahman
+Tujuan
+Mahasiswa memahami konsep dasar RPL dan ruang lingkup proyek yang akan dikerjakan selama satu semester.
+Teori singkat 
+Rekayasa Perangkat lunak (RPL) adalah disiplin ilmu yang membahas pendekatan sistematis,terstruktur, dan terukur dalam pengembangan, pengoperasian, dan pemeliharaan perangkat lunak. Fokus utama RPL adalah kualitas, efisiensi, dan keberlanjutan software.
+Nama Sistem 
+DIGIRO
+Permasalahan 
+Banyak perpustakaan masih menggunakan pencatatan manual untuk mengelola data buku dan  peminjaman. Hal ini kurang efektif dan rawan kesalahan. Oleh karena itu, diperlukan aplikasi digital sistem perpustakaan untuk mempermudah pengelolaan data dan meningkatkan efisiensi layanan.
+Tujuan Sistem 
+Tujuan sistem ini adalah mempermudah pengelolaan data buku dan proses peminjaman, serta memberikan akses literasi yang lebih mudah bagi civitas akademik melalui sistem perpustakaan berbasis web.
+Target Pengguna
+Civitas akademik dan instansi pendidikan
+ Langkah-langkah 
+ Membuat Akun GitHub
+1. Membuka website GitHub melalui browser di alamat https://github.com
+2. Klik tombol Sign Up untuk membuat akun baru.
+3. Mengisi data yang diperlukan seperti:
+Email
+Username
+Password
+4. Melakukan verifikasi email hingga akun berhasil dibuat dan dapat digunakan.
 
+Membuat Repository
+1. Login ke akun GitHub.
+2. Klik tombol "+" di pojok kanan atas halaman.
+3. Pilih menu New Repository.
+4. Mengisi informasi repository:
+Repository Name: ordino
+5. Memilih opsi Public agar repository dapat diakses secara umum.
+6. Mencentang opsi Add README file.
+7. Klik Create Repository untuk membuat repository baru.
+
+Hasil 
+Repository dengan nama Digiro berhasil dibuat di GitHub dan dapat digunakan sebagai tempat penyimpanan serta pengelolaan proyek perangkat lunak berbasis web.
+
+Kesimpulan
+Berdasarkan yang dilakukan, dapat disimpulkan bahwa GitHub dapat digunakan untuk membuat repository sebagai tempat menyimpan dan mengelola proyek perangkat lunak secara terstruktur dan dapat diakses secara online. parafrasa
