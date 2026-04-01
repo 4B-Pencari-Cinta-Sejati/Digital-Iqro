@@ -1,0 +1,78 @@
+Pertemuan 2 – Software Development Life Cycle (SDLC)
+TESTING
+
+Nama Kelompok:
+
+Abdullah Nawap Lukman
+Ariq Gusmila
+Luthfiyah Ramadhani
+Gifta Ananda Aghnaa
+Dede Amelia Rahman
+
+Tujuan
+Mahasiswa diharapkan mampu memahami dan menerapkan tahapan pengembangan perangkat lunak melalui berbagai model siklus hidup (SDLC).
+
+Teori Singkat
+SDLC merupakan rangkaian proses dalam pengembangan perangkat lunak yang dimulai dari tahap perencanaan hingga pemeliharaan.
+
+Model SDLC yang Umum Digunakan
+Beberapa model SDLC yang sering digunakan antara lain: Waterfall, Prototype, Spiral, Incremental, RAD, dan Agile.
+
+Bahan dan Alat
+Tools yang digunakan meliputi diagram tool seperti Draw.io, Lucidchart, atau Astah, serta GitHub untuk manajemen kode.
+
+Studi Kasus
+Pengembangan sistem berbasis web untuk perpustakaan yang bertujuan membantu petugas dalam:
+
+Mencatat peminjaman buku
+Mengelola stok buku
+Mengatur inventaris perpustakaan
+
+Permasalahan
+Tim menghadapi kendala dalam memilih metode pengembangan karena kebutuhan sistem yang sering mengalami perubahan.
+
+Model SDLC yang Dipilih
+Model yang digunakan adalah Agile dengan pendekatan iteratif dan incremental.
+
+Alasan Pemilihan Model
+Agile dipilih karena memiliki beberapa keunggulan, yaitu:
+
+Mampu menyesuaikan perubahan kebutuhan dengan cepat
+Proses pengembangan dilakukan secara bertahap
+Pengguna dapat memberikan umpan balik secara langsung
+Hasil pengembangan dapat dilihat dalam waktu relatif singkat pada setiap iterasi
+
+Model ini dianggap lebih sesuai dibandingkan Waterfall yang cenderung kaku dan sulit beradaptasi dengan perubahan.
+
+Tahapan SDLC (Agile)
+
+Planning (Perencanaan)
+Menentukan kebutuhan awal sistem, seperti:
+Data buku
+Data anggota
+Sistem peminjaman dan pengembalian
+Design (Perancangan)
+Menyusun desain sistem yang meliputi:
+Desain antarmuka (UI/UX)
+Struktur database (buku, anggota, transaksi)
+Development (Pengembangan)
+Proses pengkodean dilakukan secara bertahap:
+Iterasi 1: Fitur login dan pengelolaan buku
+Iterasi 2: Sistem peminjaman
+Iterasi 3: Laporan dan inventaris
+Testing (Pengujian)
+Melakukan pengujian sistem, seperti:
+Validasi data
+Pengujian fitur peminjaman dan pengembalian
+Deployment (Implementasi)
+Sistem mulai diterapkan dan digunakan oleh petugas perpustakaan.
+Maintenance (Pemeliharaan)
+Meliputi:
+Perbaikan kesalahan (bug)
+Pengembangan fitur baru sesuai kebutuhan
+
+Diagram SDLC (Agile)
+Planning → Design → Development → Testing → Deployment → Maintenance → kembali ke Planning jika ada perubahan
+
+Kesimpulan
+Model Agile merupakan pilihan yang tepat karena mampu mengakomodasi perubahan kebutuhan secara fleksibel serta mendukung pengembangan sistem secara bertahap, sehingga hasil dapat diperoleh lebih cepat dan efisien.
