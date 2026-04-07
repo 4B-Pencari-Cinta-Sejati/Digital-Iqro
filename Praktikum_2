@@ -1,0 +1,91 @@
+Pertemuan 2 – Software Development Life Cycle (SDLC) 
+
+Nama Kelompok:
+1.	Gifta Ananda Aghnaa
+2.	Dede Amelia Rahman
+3.	Luthfiyah Ramadhani
+4.	Abdullah Nawap
+5.	Ariq Gusmila 
+ 
+Tujuan: Mahasiswa mampu menerapkan tahapan pengembangan perangkat lunak 
+melalui berbagai model siklus hidupnya
+ 
+Teori Singkat 
+SDLC adalah tahapan pengembangan perangkat lunak dari awal hingga 
+pemeliharaan. Model SDLC yang umum: 
+• Waterfall 
+• Prototype 
+• Spiral 
+• Incremental 
+• RAD 
+• Agile 
+• .................. 
+
+Bahan dan Alat 
+• Diagram tool (Draw.io / Lucidchart / Astah) 
+• GitHub 
+
+Contoh Permasalahan 
+
+Tim mengalami kesulitan dalam memilih metode pengembangan yang sesuai karena kebutuhan sistem sering mengalami perubahan.
+
+Studi Kasus 
+Pengembangan sistem web perpustakaan untuk membantu penjaga perpustakaan dalam:
+- Mendata peminjaman buku
+- Mengelola jumlah buku
+- Mengatur inventaris perpustakaan
+
+Model SDLC yang Dipilih
+Model yang digunakan adalah Agile (Iterative / Incremental).
+
+Alasan Pemilihan Model
+Model Agile dipilih karena fleksibel terhadap perubahan, bersifat iteratif, memungkinkan feedback langsung dari pengguna, dan hasilnya dapat terlihat lebih cepat. Dibandingkan Waterfall, Agile lebih adaptif dan tidak kaku.
+
+Tahapan SDLC (Agile)
+1. Planning (Perencanaan)
+Menentukan kebutuhan awal sistem:
+- Pendataan buku
+- Data anggota
+- Sistem peminjaman dan pengembalian
+
+2. Design (Perancangan)
+Membuat desain sistem:
+- Desain UI/UX
+- Struktur database (buku, anggota, transaksi)
+
+3. Development (Pengembangan)
+Proses coding dilakukan bertahap:
+- Iterasi 1: Login & manajemen buku
+- Iterasi 2: Sistem peminjaman
+- Iterasi 3: Laporan dan inventaris
+
+4. Testing (Pengujian)
+Melakukan pengujian:
+- Validasi data
+- Uji fitur peminjaman dan pengembalian
+
+5. Deployment (Implementasi)
+Sistem mulai digunakan oleh penjaga perpustakaan.
+
+6. Maintenance (Pemeliharaan)
+- Perbaikan bug
+- Penambahan fitur baru sesuai kebutuhan
+
+Diagram SDLC (Agile)
+[Planning]
+↓
+[Design]
+↓
+[Development]
+↓
+[Testing]
+↓
+[Deployment]
+↓
+[Maintenance]
+kembali ke Planning jika ada perubahan
+
+📝 Kesimpulan
+Model Agile menjadi pilihan yang sesuai karena dapat menyesuaikan perubahan kebutuhan dengan fleksibel serta mendukung pengembangan bertahap yang lebih cepat dan efisien.
+
+
