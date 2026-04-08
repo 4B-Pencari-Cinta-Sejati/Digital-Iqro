@@ -1,0 +1,64 @@
+Pertemuan 3 – Analisis Kebutuhan Perangkat Lunak 
+
+Analyst
+Nama Kelompok:
+1.	Gifta Ananda Aghnaa
+2.	Dede Amelia Rahman
+3.	Luthfiyah Ramadhani
+4.	Abdullah Nawap
+5.	Ariq Gusmila 
+ 
+Tujuan : Mahasiswa mampu menganalisis kebutuhan client sehingga sesuai dengan 
+kebutuhannya  
+Teori Singkat 
+
+Analisis kebutuhan bertujuan mengidentifikasi: 
+• Kebutuhan fungsional 
+• Kebutuhan non-fungsional 
+• Batasan sistem 
+
+Bahan dan Alat 
+• Dokumen teks 
+• Template SRS 
+
+Contoh Permasalahan 
+Sistem perpustakaan sekolah sering bermasalah dalam pengelolaan data dan kurang optimal karena kebutuhan pengguna belum jelas, sehingga diperlukan analisis melalui dokumen SRS.
+
+Studi Kasus 
+• Identifikasi stakeholder 
+1. Petugas Perpustakaan
+   Peran: Pengelola sistem
+   Tanggung jawab: Mengatur data buku serta mencatat peminjaman dan pengembalian
+   Kebutuhan: Sistem yang sederhana, cepat, dan akurat
+
+2. Siswa/i
+   Peran: Pengguna sistem
+   Tanggung jawab: Meminjam dan mengembalikan buku
+   Kebutuhan: Kemudahan dalam pencarian dan peminjaman buku
+
+3. Kepala Sekolah
+   Peran: Pengambil keputusan
+   Tanggung jawab: Memantau dan menilai laporan perpustakaan
+   Kebutuhan: Data dan laporan yang jelas serta akurat
+
+4. Developer
+   Peran: Pembuat sistem
+   Tanggung jawab: Mengembangkan sistem sesuai kebutuhan
+   Kebutuhan: Spesifikasi yang detail dan dokumentasi lengkap
+
+• Susun daftar kebutuhan fungsional dan non-fungsional
+Kebutuhan fungsional:
+•	Dashboard admin untuk mengatur stok buku (tambah, ubah, hapus)
+•	Katalog digital dengan fitur pencarian (judul, penulis, kategori)
+•	Sistem status buku (tersedia, dipinjam, rusak)
+•	Pengelolaan akun untuk civitas akademika (siswa/mahasiswa dan pengajar)
+Kebutuhan non-fungsional:
+•	Penyediaan perangkat keras seperti komputer dan pemindai barcode
+•	Integrasi pembayaran denda melalui bank atau e-wallet (berfokus pada pencatatan denda internal)
+
+• Buat dokumen Software Requirement Specification (SRS)
+
+Kesimpulan:
+Dengan adanya dokumen SRS, kebutuhan sistem dapat dirumuskan secara jelas sehingga meminimalkan risiko kegagalan akibat kesalahan dalam memahami kebutuhan pengguna.
+
+
