@@ -1,1 +1,1 @@
-# Point-of-Sale
+# Digital-Iqro
