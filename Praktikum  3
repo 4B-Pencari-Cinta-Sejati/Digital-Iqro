@@ -1,0 +1,73 @@
+Pertemuan 3 – Analisis Kebutuhan Perangkat Lunak
+Programming
+
+Nama Kelompok:
+
+Abdullah Nawap Lukman
+Ariq Gusmila
+Luthfiyah Ramadhani
+Gifta Ananda Aghnaa
+Dede Amelia Rahman
+Tujuan
+Mahasiswa diharapkan mampu melakukan analisis terhadap kebutuhan klien agar sistem yang dikembangkan benar-benar sesuai dengan kebutuhan pengguna.
+
+Teori Singkat
+Analisis kebutuhan dilakukan untuk mengidentifikasi beberapa hal penting, yaitu:
+Kebutuhan fungsional
+Kebutuhan non-fungsional
+Batasan yang dimiliki sistem
+Bahan dan Alat
+Dokumen teks
+Template SRS (Software Requirements Specification)
+
+Latar Belakang
+Sistem perpustakaan sekolah kerap menghadapi berbagai masalah dalam pengelolaan data, seperti pencatatan peminjaman, jumlah koleksi buku, serta inventaris. Selain itu, banyak sistem yang tidak dapat digunakan secara optimal karena kebutuhan pengguna tidak dianalisis secara tepat. Oleh sebab itu, diperlukan analisis kebutuhan yang terstruktur melalui dokumen SRS.
+
+Tujuan Dokumen
+Dokumen ini disusun untuk:
+Mengidentifikasi kebutuhan pengguna secara jelas
+Menjadi pedoman dalam proses pengembangan sistem
+Meminimalkan kesalahan dalam pembuatan sistem
+Identifikasi Stakeholder
+
+Pihak-pihak yang terlibat dalam sistem meliputi:
+Penjaga Perpustakaan
+Mengelola data buku
+Mencatat transaksi peminjaman dan pengembalian
+
+Siswa
+Melakukan peminjaman dan pengembalian buku
+
+Admin / Sekolah
+Mengelola sistem
+Mengakses dan memantau laporan
+Kebutuhan Fungsional
+
+Sistem harus mampu:
+
+Menyediakan fitur login bagi admin dan petugas
+Menambah, mengedit, dan menghapus data buku
+Mencatat transaksi peminjaman buku
+Mencatat proses pengembalian buku
+Menampilkan informasi stok atau jumlah buku
+Mengelola data anggota (siswa)
+Menyajikan laporan peminjaman
+Mengelola data inventaris perpustakaan
+Kebutuhan Non-Fungsional
+
+1. Keamanan
+Sistem harus memiliki mekanisme autentikasi login
+Data pengguna harus terjamin keamanannya
+2. Kinerja
+Sistem dapat diakses dengan respons cepat
+Proses input dan pencarian data berjalan efisien
+3. Kemudahan Penggunaan (Usability)
+Antarmuka sederhana dan mudah dipahami
+Navigasi sistem jelas dan tidak membingungkan
+4. Ketersediaan
+Sistem dapat digunakan kapan saja selama server aktif
+5. Maintainability
+Sistem mudah untuk diperbaiki dan dikembangkan lebih lanjut
+
+Kesimpulan
+Dengan adanya dokumen SRS, kebutuhan sistem dapat dirumuskan secara sistematis dan jelas. Hal ini membantu mengurangi risiko kegagalan sistem yang disebabkan oleh kesalahan dalam memahami kebutuhan pengguna.

@@ -1,0 +1,45 @@
+Pertemuan 1 – Pengenalan Rekayasa Perangkat Lunak dan Proyek
+Programming
+Nama kelompok:
+1. Abdullah Nawap Lukman
+2. Ariq Gusmila
+3. Luthfiyah Ramadhani
+4. Gifta Ananda Aghnaa
+5. Dede Amelia Rahman
+Tujuan:
+Mahasiswa diharapkan dapat memahami konsep dasar Rekayasa Perangkat Lunak (RPL) serta ruang lingkup proyek yang akan dilaksanakan selama satu semester penuh.
+Teori singkat:
+Rekayasa Perangkat Lunak (RPL) adalah bidang ilmu yang mempelajari pendekatan yang sistematis, terstruktur, dan terukur dalam pengembangan, pengoperasian, serta pemeliharaan perangkat lunak. RPL menekankan pentingnya kualitas, efisiensi, dan keberlanjutan dari sistem perangkat lunak sehingga dapat digunakan secara optimal dalam jangka panjang.
+Nama Sistem:
+DIGIRO
+Permasalahan:
+Masih banyak perpustakaan yang menggunakan metode pencatatan manual untuk mengelola data buku dan proses peminjaman. Sistem manual ini sering menimbulkan kesalahan, memakan waktu, dan kurang efisien. Oleh karena itu, dibutuhkan sebuah aplikasi digital berbasis web yang mampu mempermudah pengelolaan data perpustakaan dan meningkatkan kecepatan serta akurasi layanan bagi pengguna.
+Tujuan Sistem:
+Sistem DIGIRO dikembangkan untuk mempermudah pengelolaan data buku dan peminjaman, serta menyediakan akses literasi yang lebih mudah bagi civitas akademik melalui platform digital. Dengan sistem ini, proses pengelolaan perpustakaan menjadi lebih efisien, terstruktur, dan mudah diakses.
+Target Pengguna:
+Sistem ini ditujukan bagi civitas akademik dan instansi pendidikan yang membutuhkan akses cepat dan efisien terhadap data buku dan layanan peminjaman.
+ Langkah-langkah 
+ Membuat Akun GitHub
+1. Membuka website GitHub melalui browser di alamat https://github.com
+2. Klik tombol Sign Up untuk membuat akun baru.
+3. Mengisi data yang diperlukan seperti:
+Email
+Username
+Password
+4. Melakukan verifikasi email hingga akun berhasil dibuat dan dapat digunakan.
+
+Membuat Repository
+1. Login ke akun GitHub.
+2. Klik tombol "+" di pojok kanan atas halaman.
+3. Pilih menu New Repository.
+4. Mengisi informasi repository:
+Repository Name: ordino
+5. Memilih opsi Public agar repository dapat diakses secara umum.
+6. Mencentang opsi Add README file.
+7. Klik Create Repository untuk membuat repository baru.
+
+Hasil:
+Repository dengan nama Digiro berhasil dibuat di GitHub. Repository ini dapat digunakan sebagai media penyimpanan dan pengelolaan proyek perangkat lunak berbasis web secara terstruktur dan aman.
+
+Kesimpulan:
+Dari kegiatan yang dilakukan, dapat disimpulkan bahwa GitHub merupakan platform yang efektif untuk membuat dan mengelola repository. Dengan menggunakan GitHub, mahasiswa dapat menyimpan, mengelola, dan mengembangkan proyek perangkat lunak secara terstruktur serta dapat diakses kapan saja dan di mana saja secara online.
