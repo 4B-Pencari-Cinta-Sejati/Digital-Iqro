@@ -1,0 +1,21 @@
+Analisis Proses Bisnis: Input Data Buku (DIGIRO)
+Identitas Mahasiswa:
+Nama: Abdullah Nawap Lukman
+NIM: 2403015093
+Instansi: Universitas Muhammadiyah Prof. Dr. Hamka (UHAMKA)
+
+1. Narasi Alur Aktivitas (Business Process)
+Proses ini menggambarkan bagaimana Admin mengelola inventaris buku baru ke dalam database DIGIRO:
+Inisiasi: Admin membuka menu Input Data pada aplikasi DIGIRO yang sudah berjalan dalam kondisi sudah login.
+Input Data: Admin mengisi kolom informasi buku yang mencakup Judul, Penulis, Penerbit, Tahun, dan Stok.
+Validasi Kelengkapan: Setelah menekan tombol simpan, sistem secara otomatis memeriksa kelengkapan data.
+Kondisi Gagal: Jika data tidak lengkap, sistem menampilkan pesan error dan mengembalikan Admin ke form pengisian.
+Kondisi Sukses: Jika data lengkap, sistem melanjutkan proses penyimpanan ke database.
+Finalisasi: Sistem memberikan notifikasi bahwa data berhasil disimpan, dan record buku baru muncul di daftar pustaka.
+
+2. Panduan Notasi UML (Activity Diagram)
+Untuk mendapatkan nilai maksimal pada aspek notasi UML, pastikan diagram kamu menggunakan elemen-elemen berikut secara konsisten:
+Initial Node: Gunakan lingkaran hitam solid untuk memulai proses (Saat Admin membuka menu Input).
+Action States: Gunakan kotak dengan sudut tumpul untuk aktivitas seperti "Mengisi Data Buku", "Memproses Penyimpanan", dan "Menampilkan Notifikasi".
+Decision Node: Gunakan simbol belah ketupat untuk pengecekan "Data Lengkap?". Berikan label "Ya" menuju proses simpan dan "Tidak" kembali ke form input.
+Final Node: Gunakan lingkaran hitam dengan garis tepi lingkaran untuk menandakan selesainya proses setelah data tersimpan di database
