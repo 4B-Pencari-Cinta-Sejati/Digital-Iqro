@@ -1,0 +1,21 @@
+
+1. Proses Autentikasi dan Akses Dashboard (UC-DG05)
+
+Administrator memulai interaksi dengan sistem melalui halaman login untuk memastikan validitas hak akses sebagai pengelola.
+Pada tahap ini, admin memasukkan username dan password yang kemudian diverifikasi oleh sistem berdasarkan data yang tersimpan di database.
+Jika proses autentikasi berhasil, admin akan diarahkan ke dashboard utama sebagai pusat pengelolaan sistem. Sebaliknya, jika data yang dimasukkan tidak sesuai atau terdapat kolom yang kosong, sistem akan menampilkan pesan kesalahan dan menolak akses guna menjaga keamanan.
+
+2. Proses Pencarian Buku (UC-DG01)
+Fitur ini menjadi sarana utama bagi pengguna dalam menemukan referensi buku melalui kata kunci tertentu.
+Pengguna dapat memasukkan pencarian pada kolom yang tersedia, kemudian sistem akan memproses dan menampilkan daftar buku yang relevan secara terstruktur.
+Apabila kolom pencarian tidak diisi atau data buku yang dicari tidak tersedia di dalam sistem, maka akan muncul notifikasi bahwa informasi yang dimaksud tidak ditemukan.
+
+3. Pengelolaan Data dan Kategori Buku (UC-DG02 & UC-DG03)
+Administrator memiliki kendali penuh dalam mengelola koleksi perpustakaan, baik dari sisi data buku maupun pengelompokan kategorinya.
+Kegiatan ini meliputi penginputan informasi buku seperti judul dan penulis ke dalam database, serta pengelolaan kategori yang mencakup penambahan, perubahan, dan penghapusan data.
+Untuk memastikan keakuratan dan kelengkapan data, sistem menyediakan validasi otomatis yang akan memberikan peringatan apabila terjadi kesalahan input atau kegagalan saat proses penyimpanan.
+
+4. Akses dan Penggunaan Dokumen Digital (UC-DG04)
+DIGIRO menyediakan fasilitas bagi pengguna untuk mengakses dan mengunduh dokumen digital secara langsung.
+Setelah pengguna memilih dokumen yang diinginkan, sistem akan memproses permintaan hingga file dapat ditampilkan atau disimpan ke perangkat pengguna.
+Namun, apabila terjadi kendala seperti file tidak tersedia atau gangguan pada sistem, maka akan ditampilkan pesan kegagalan agar pengguna mengetahui adanya masalah.
