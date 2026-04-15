@@ -1,40 +1,37 @@
-1. Simulasi Wawancara
-Pewawancara (Analyst): "Selamat siang, Bapak/Ibu Penjaga Perpustakaan. Kami sedang mengembangkan sistem Digiro. Apa kendala utama yang sering dihadapi saat mencatat peminjaman saat ini?"
+1. Fragmen Wawancara (Kebutuhan Pengguna)
+Analis: "Selamat siang. Terkait pengembangan sistem Digiro, apa hambatan paling signifikan yang Anda rasakan dalam pengelolaan data perpustakaan saat ini?"
 
-Narasumber (Penjaga Perpus): "Kendala utama adalah kami sering lupa siapa saja yang terlambat mengembalikan buku jika tidak mengecek buku besar satu per satu. Selain itu, kami kesulitan mengetahui buku mana yang paling sering dicari mahasiswa agar bisa kami tambah stoknya."
+Pustakawan: "Masalah utamanya adalah monitoring keterlambatan. Kami harus memeriksa catatan manual satu per satu untuk mengetahui siapa yang belum mengembalikan buku. Selain itu, kami tidak memiliki data akurat mengenai buku yang paling diminati mahasiswa, sehingga perencanaan penambahan koleksi menjadi kurang efektif."
 
-2. Daftar Pertanyaan (Interview Guide)
-Berikut adalah daftar pertanyaan kunci untuk menggali kebutuhan sistem Digiro:
+2. Panduan Wawancara (Interview Guide)
+Untuk memetakan kebutuhan sistem Digiro secara mendalam, berikut adalah poin-poin pertanyaan kunci:
 
-Operasional: "Bagaimana alur pencatatan peminjaman dan pengembalian buku yang dilakukan saat ini?"
+Prosedur Kerja: Bagaimana urutan prosedur teknis dalam mencatat transaksi peminjaman dan pengembalian koleksi saat ini?
 
-Manajemen Stok: "Informasi apa saja yang wajib ada saat Anda menginput data buku baru ke dalam sistem?"
+Inventarisasi: Parameter atau detail informasi apa saja yang wajib tersedia saat melakukan registrasi judul buku baru?
 
-Monitoring: "Apakah Anda membutuhkan notifikasi atau tanda khusus untuk buku-buku yang sudah mendekati jatuh tempo?"
+Pengawasan (Monitoring): Apakah diperlukan sistem peringatan dini (early warning) untuk koleksi yang mendekati batas waktu peminjaman?
 
-Analisis: "Bagaimana cara Anda menentukan bahwa sebuah buku dikategorikan sebagai 'buku populer' di perpustakaan ini?"
+Metrik Penilaian: Kriteria apa yang digunakan oleh pengelola untuk menetapkan sebuah buku masuk ke dalam kategori "sering dipinjam" atau populer?
 
-User Experience: "Data apa saja dari anggota (peminjam) yang paling krusial untuk disimpan guna mempermudah komunikasi jika terjadi keterlambatan?"
+Manajemen Anggota: Identitas anggota apa yang paling vital untuk disimpan agar koordinasi terkait sanksi atau keterlambatan menjadi lebih responsif?
 
-3. Ringkasan Hasil Elicitation
-Setelah melakukan teknik wawancara dan observasi, berikut adalah ringkasan kebutuhan fungsional sistem Digiro:
+3. Dokumentasi Hasil Elisitasi
+Berdasarkan proses observasi dan diskusi, kebutuhan fungsional sistem Digiro diklasifikasikan sebagai berikut:
 
-Prioritas Tinggi (Must Have):
+A. Skala Prioritas Utama (Must Have)
+Dashboard Real-time: Penyajian ringkasan data buku, jumlah anggota, dan aktivitas transaksi secara otomatis dan cepat.
 
-Sistem harus memiliki Dashboard Statistik untuk melihat total buku, anggota, dan transaksi secara instan tanpa hitung manual.
+Manajemen Pelanggaran: Fitur otomatis yang menyaring dan menampilkan daftar peminjam yang melewati tenggat waktu.
 
-Sistem harus menyediakan Tabel Keterlambatan Otomatis yang hanya muncul jika ada peminjam yang melanggar batas waktu.
+Katalog Digital (Search): Mekanisme pencarian koleksi yang efisien untuk mempercepat durasi pelayanan di loket.
 
-Fitur Pencarian (Search) buku untuk mempercepat pelayanan kepada anggota.
+B. Skala Prioritas Pendukung (Should Have)
+Analitik Visual: Implementasi grafik fluktuasi peminjaman harian untuk memantau intensitas kunjungan.
 
-Prioritas Menengah (Should Have):
+Laporan Koleksi Unggulan: Fitur klasifikasi "5 Buku Terpopuler" sebagai dasar pengambilan keputusan dalam pengadaan aset perpustakaan.
 
-Visualisasi data berupa Grafik Peminjaman harian untuk memantau trafik perpustakaan.
+C. Struktur Data Minimal
+Entitas Buku: Judul, Penulis, Penerbit, Tahun Terbit, serta Jumlah Stok.
 
-Fitur Top 5 Buku Populer sebagai patokan pengadaan buku di masa depan.
-
-Kebutuhan Data:
-
-Data Buku: Judul, Penulis, Penerbit, Tahun, Stok.
-
-Data Anggota: Nama, Alamat, Nomor HP.
+Entitas Anggota: Nama Lengkap, Alamat Domisili, dan Kontak (WhatsApp/No. HP).
