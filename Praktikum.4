@@ -1,0 +1,40 @@
+1. Skenario Wawancara (Elicitation Session)
+Analyst: "Selamat siang, Pak/Bu. Dalam rangka pengembangan sistem Digiro, kami ingin memvalidasi beberapa hal. Menurut Bapak/Ibu, apa hambatan teknis yang paling mengganggu dalam proses administrasi perpustakaan saat ini?"
+
+Pustakawan: "Masalah terbesarnya adalah efisiensi, Mas. Kami kesulitan melacak data keterlambatan karena harus menyisir buku induk secara manual. Kami juga sering kesulitan memetakan minat baca mahasiswa, jadi kami tidak punya acuan data yang pasti saat ingin menambah koleksi buku baru."
+
+2. Panduan Wawancara (Interview Guide)
+Berikut adalah poin-poin pertanyaan strategis untuk membedah kebutuhan sistem:
+
+Mekanisme Kerja: "Bisa dijelaskan bagaimana prosedur standar peminjaman hingga pengembalian buku yang berlaku sekarang?"
+
+Inventarisasi: "Atribut data apa saja yang dianggap paling esensial saat Bapak/Ibu mendaftarkan koleksi buku baru?"
+
+Pengawasan (Monitoring): "Sejauh mana sistem perlu memberikan peringatan visual untuk buku yang mendekati batas waktu pengembalian?"
+
+Metrik Kepopuleran: "Kriteria seperti apa yang Bapak/Ibu gunakan untuk menetapkan bahwa suatu judul buku masuk dalam kategori 'paling dicari'?"
+
+Basis Data Anggota: "Informasi kontak apa yang paling efektif untuk menghubungi mahasiswa jika terjadi kendala pada transaksi mereka?"
+
+3. Dokumentasi Hasil Elisitasi
+Berdasarkan hasil diskusi dan observasi lapangan, berikut adalah klasifikasi kebutuhan sistem Digiro:
+
+A. Kebutuhan Utama (Critical Path):
+
+Dashboard Real-time: Penyediaan ringkasan statistik (buku, member, transaksi) yang terintegrasi secara otomatis.
+
+Sistem Filtrasi Keterlambatan: Tabel khusus yang mampu menyaring secara mandiri data peminjam yang sudah melewati batas durasi pinjam.
+
+Modul Pencarian: Fitur pencarian cepat berdasarkan judul untuk optimasi layanan di meja sirkulasi.
+
+B. Kebutuhan Pendukung (Supporting Features):
+
+Visualisasi Grafik: Representasi data dalam bentuk grafik untuk memantau fluktuasi aktivitas perpustakaan setiap harinya.
+
+Analitik Top 5: Fitur laporan buku terlaris sebagai dasar pengambilan keputusan dalam pengadaan stok buku baru.
+
+C. Struktur Entitas Data:
+
+Entitas Buku: Judul, Penulis, Nama Penerbit, Tahun Terbit, serta Jumlah Stok fisik.
+
+Entitas Anggota: Identitas Nama, Alamat domisili, dan Nomor Telepon aktif.
