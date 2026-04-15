@@ -1,0 +1,19 @@
+1. Prosedur Autentikasi dan Akses Dashboard (UC-DG05)
+Aktor Administrator memulai interaksi dengan sistem melalui gerbang login untuk memvalidasi hak akses manajemen.
+Proses ini melibatkan input kredensial berupa username dan password yang akan diverifikasi oleh sistem terhadap basis data.
+Keberhasilan autentikasi akan membawa admin ke panel kendali (dashboard) utama. Sebaliknya, guna menjaga keamanan sistem,
+setiap upaya akses dengan data yang tidak valid atau kolom yang dikosongkan akan memicu pesan peringatan kesalahan dan penolakan akses.
+2. Mekanisme Pencarian Buku (UC-DG01)
+Fitur ini merupakan modul interaksi utama bagi pengguna untuk mengeksplorasi referensi pustaka melalui parameter kata kunci tertentu. Pengguna dapat memasukkan kueri pada kolom pencarian yang tersedia,
+di mana sistem akan melakukan pemindaian data dan menyajikan daftar buku yang relevan secara sistematis. Apabila kolom pencarian tidak diisi atau referensi yang dicari tidak ditemukan dalam pangkalan data,
+sistem secara otomatis akan memberikan notifikasi bahwa informasi tersebut tidak tersedia.
+3. Tata Kelola Inventaris Buku (UC-DG02 & UC-DG03)
+Parafrase:
+Administrator memegang otoritas penuh dalam pemeliharaan koleksi perpustakaan, yang mencakup manajemen data buku dan klasifikasinya. 
+Prosedur ini melibatkan input detail bibliografi seperti judul dan penulis ke dalam database, serta pengelolaan kategori buku (tambah,
+ubah, hapus) untuk optimalisasi pengelompokan koleksi. Untuk menjaga integritas data, sistem dilengkapi dengan validasi otomatis yang akan menampilkan pesan error jika terdapat ketidaklengkapan informasi atau kegagalan saat proses penyimpanan data.
+4. Pemanfaatan Koleksi Dokumen Digital (UC-DG04)
+Parafrase:
+Sistem DIGIRO memfasilitasi aksesibilitas sumber daya digital melalui fitur penampilan dan pengunduhan dokumen secara langsung oleh pengguna.
+Setelah pengguna menentukan dokumen yang diinginkan, sistem akan memproses permintaan tersebut hingga berkas berhasil tersaji atau tersimpan di perangkat lokal. 
+Dalam skenario di mana terjadi kendala teknis pada server atau aset digital belum tersedia, sistem akan secara responsif memberikan informasi kegagalan pemuatan (failure to load) kepada pengguna.
