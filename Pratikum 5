@@ -1,23 +1,24 @@
-Pertemuan 4 – Teknik Elicitation Kebutuhan
+Pertemuan 5 – Use Case Diagram dan Use Case Description
 Designer
 
-Tujuan : Mahasiswa dapat mengumpulkan data Kebutuhan dari client sesuai dengan perencanaan
-Teori Singkat
-Elicitation adalah teknik pengumpulan kebutuhan seperti:
-•	Wawancara
-•	Observasi
-•	Kuesioner
-•	Studi dokumen
+Nama Kelompok:
+1.	Gifta Ananda Aghnaa
+2.	Dede Amelia Rahman
+3.	Luthfiyah Ramadhani
+4.	Abdullah Nawap
+5.	Ariq Gusmila 
 
+Tujuan: Mahasiswa dapat memodelkan peran dan interaksi pada sistem yang akan dikembangkan.
+Teori Singkat
+Use Case Diagram digunakan untuk memodelkan interaksi antara pengguna dan sistem.
 Bahan dan Alat
-•	Google Form / Dokumen
-•	Template wawancara
+•	Draw.io / StarUML/ Astah
+
 Contoh Permasalahan
-Pengembang hanya menebak kebutuhan tanpa komunikasi dengan pengguna.
+Sistem sulit dipahami karena tidak ada dokumentasi interaksi pengguna.
 Studi Kasus
-•	Simulasikan wawancara dengan pengguna
-•	Buat daftar pertanyaan
-•	Ringkas hasil elicitation
+•	Buat Use Case Diagram
+•	Buat minimal 3 Use Case Description
 
 1. Proses Autentikasi dan Akses Dashboard (UC-DG05)
 Administrator memulai interaksi dengan sistem melalui halaman login untuk memastikan validitas hak akses sebagai pengelola.
