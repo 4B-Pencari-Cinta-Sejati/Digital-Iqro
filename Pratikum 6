@@ -1,0 +1,31 @@
+Analisis Proses Bisnis: Input Data Buku (DIGIRO)
+
+1. Deskripsi Alur Aktivitas (Business Process)
+
+Proses ini menjelaskan tahapan yang dilakukan oleh Admin dalam menambahkan data buku baru ke dalam sistem DIGIRO:
+
+Tahap Awal:
+Admin mengakses menu Input Data pada aplikasi DIGIRO dalam kondisi sudah login.
+Pengisian Data:
+Admin memasukkan informasi buku yang meliputi judul, penulis, penerbit, tahun terbit, serta jumlah stok.
+Proses Validasi:
+Setelah tombol simpan ditekan, sistem secara otomatis melakukan pengecekan terhadap kelengkapan data yang diinput.
+Kondisi Tidak Berhasil:
+Jika terdapat data yang belum lengkap, sistem akan menampilkan pesan kesalahan dan mengarahkan kembali ke form pengisian.
+Kondisi Berhasil:
+Apabila seluruh data telah lengkap, sistem akan melanjutkan proses penyimpanan ke dalam database.
+Tahap Akhir:
+Sistem menampilkan notifikasi bahwa data berhasil disimpan, dan buku yang baru ditambahkan akan muncul dalam daftar koleksi.
+2. Panduan Penggunaan Notasi UML (Activity Diagram)
+
+Agar memperoleh hasil maksimal dalam pembuatan diagram aktivitas, gunakan elemen-elemen UML berikut secara konsisten:
+
+Initial Node:
+Ditandai dengan lingkaran hitam penuh sebagai awal proses, yaitu saat Admin membuka menu input data.
+Action State:
+Digambarkan dengan persegi panjang bersudut tumpul untuk menunjukkan aktivitas seperti mengisi data buku, memproses penyimpanan, dan menampilkan notifikasi.
+Decision Node:
+Menggunakan simbol belah ketupat untuk proses pengambilan keputusan “Apakah data sudah lengkap?”.
+Berikan cabang “Ya” menuju proses penyimpanan dan “Tidak” kembali ke form input.
+Final Node:
+Ditunjukkan dengan lingkaran hitam yang dikelilingi garis sebagai tanda berakhirnya proses setelah data berhasil disimpan dalam database.
