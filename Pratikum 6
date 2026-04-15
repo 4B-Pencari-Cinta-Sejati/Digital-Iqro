@@ -1,3 +1,16 @@
+Pertemuan 6 – Activity Diagram dan Business Process
+
+Tujuan: Mahasiswa dapat menggambarkan proses bisnis sistem dan kegiatan yang berhubungan dengan sistem yang akan dibuat
+Teori Singkat
+Activity Diagram menggambarkan alur aktivitas atau proses bisnis dalam sistem.
+Bahan dan Alat
+•	UML Tool
+
+Contoh Permasalahan
+Alur sistem tidak jelas dan membingungkan pengguna.
+Studi Kasus
+•	Buat Activity Diagram untuk 1 proses utama sistem
+
 Analisis Proses Bisnis: Input Data Buku (DIGIRO)
 
 1. Deskripsi Alur Aktivitas (Business Process)
@@ -19,7 +32,6 @@ Sistem menampilkan notifikasi bahwa data berhasil disimpan, dan buku yang baru d
 2. Panduan Penggunaan Notasi UML (Activity Diagram)
 
 Agar memperoleh hasil maksimal dalam pembuatan diagram aktivitas, gunakan elemen-elemen UML berikut secara konsisten:
-
 Initial Node:
 Ditandai dengan lingkaran hitam penuh sebagai awal proses, yaitu saat Admin membuka menu input data.
 Action State:
