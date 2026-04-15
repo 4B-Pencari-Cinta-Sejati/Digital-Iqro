@@ -1,0 +1,46 @@
+Pertemuan 4 – Pengenalan Rekayasa Perangkat Lunak dan Proyek
+Programming
+Nama kelompok:
+1. Abdullah Nawap Lukman
+2. Ariq Gusmila
+3. Luthfiyah Ramadhani
+4. Gifta Ananda Aghnaa
+5. Dede Amelia Rahman                                                           
+
+1. Simulasi Dialog Kebutuhan Sistem
+Analis: "Selamat siang. Terkait pengembangan sistem Digiro, kami ingin memahami lebih dalam mengenai hambatan operasional yang Bapak/Ibu rasakan pada proses sirkulasi buku saat ini."
+
+Staf Perpustakaan: "Masalah mendasar kami adalah pengawasan tenggat waktu. Tanpa pengecekan manual pada buku besar, kami sering melewatkan peminjam yang terlambat mengembalikan buku. Selain itu, kami belum memiliki metode yang akurat untuk mengidentifikasi buku dengan permintaan tinggi guna perencanaan penambahan stok."
+
+2. Panduan Wawancara (Interview Guide)
+Berikut adalah instrumen pertanyaan kunci dalam tahap penggalian kebutuhan (elicitation) sistem Digiro:
+
+Alur Kerja: Bagaimana prosedur standar operasional (SOP) pencatatan peminjaman dan pengembalian yang berlaku saat ini?
+
+Inventarisasi: Parameter informasi apa saja yang wajib terekam saat melakukan penginputan data bibliografi buku baru?
+
+Pengawasan: Seberapa penting keberadaan sistem peringatan (alert) otomatis untuk buku yang mendekati batas waktu pengembalian?
+
+Metrik Populer: Indikator apa yang Anda gunakan untuk menetapkan status 'buku populer' dalam koleksi perpustakaan?
+
+Manajemen Anggota: Atribut data anggota apa yang paling vital untuk memvalidasi identitas serta mempercepat koordinasi jika terjadi kendala peminjaman?
+
+3. Ringkasan Hasil Elisitasi Kebutuhan
+Berdasarkan hasil observasi dan wawancara, berikut adalah klasifikasi kebutuhan fungsional untuk pengembangan sistem Digiro:
+
+Prioritas Utama (Must Have)
+Panel Dasbor Statistik: Menyajikan rekapitulasi jumlah buku, anggota, dan aktivitas transaksi secara real-time untuk efisiensi pelaporan.
+
+Monitoring Keterlambatan: Fitur otomatis yang menyaring dan menampilkan daftar peminjam yang melampaui batas waktu pengembalian.
+
+Modul Pencarian Cepat: Fungsi filtrasi data buku untuk mengoptimalkan durasi layanan kepada pengunjung.
+
+Prioritas Tambahan (Should Have)
+Visualisasi Trafik: Representasi data dalam bentuk grafik untuk memantau fluktuasi peminjaman harian.
+
+Analisis Buku Terlaris: Fitur Top 5 Books sebagai basis pengambilan keputusan dalam pengadaan koleksi baru.
+
+Struktur Data Terkait
+Entitas Buku: Mencakup Judul, Penulis, Penerbit, Tahun Terbit, dan Ketersediaan Stok.
+
+Entitas Anggota: Mencakup Nama Lengkap, Alamat Domisili, dan Kontak (Nomor HP).
