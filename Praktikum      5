@@ -1,0 +1,20 @@
+Pertemuan 5 – Pengenalan Rekayasa Perangkat Lunak dan Proyek
+Programming
+Nama kelompok:
+1. Abdullah Nawap Lukman
+2. Ariq Gusmila
+3. Luthfiyah Ramadhani
+4. Gifta Ananda Aghnaa
+5. Dede Amelia Rahman
+
+1. Autentikasi & Akses Dashboard (UC-DG05)
+Administrator mengakses sistem melalui gerbang login dengan memasukkan username dan password. Sistem akan memvalidasi kredensial terhadap basis data; jika valid, admin diarahkan ke dashboard utama. Jika data tidak sesuai atau kolom kosong, sistem akan menolak akses dan menampilkan pesan peringatan.
+
+2. Pencarian Buku (UC-DG01)
+Pengguna mencari referensi pustaka dengan memasukkan kata kunci pada kolom pencarian. Sistem akan memindai pangkalan data dan menyajikan daftar buku yang relevan. Apabila kueri kosong atau data tidak ditemukan, sistem akan memberikan notifikasi bahwa informasi tidak tersedia.
+
+3. Tata Kelola Inventaris (UC-DG02 & UC-DG03)
+Administrator mengelola koleksi buku dan kategori (tambah, ubah, hapus) dalam database. Untuk menjaga integritas data, sistem menerapkan validasi otomatis yang akan menampilkan pesan error jika terdapat ketidaklengkapan informasi atau kegagalan pada proses penyimpanan.
+
+4. Pemanfaatan Dokumen Digital (UC-DG04)
+Sistem memfasilitasi akses dokumen melalui fitur pratinjau dan pengunduhan langsung. Setelah permintaan diproses, berkas akan tersaji atau tersimpan di perangkat lokal. Jika terjadi kendala server atau dokumen tidak ditemukan, sistem akan memunculkan notifikasi failure to load.
