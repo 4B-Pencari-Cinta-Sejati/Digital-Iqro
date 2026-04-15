@@ -1,0 +1,30 @@
+Pertemuan 5 – Use Case Diagram dan Use Case Description
+
+Analyst
+Nama Kelompok:
+1.	Gifta Ananda Aghnaa
+2.	Dede Amelia Rahman
+3.	Luthfiyah Ramadhani
+4.	Abdullah Nawap
+5.	Ariq Gusmila 
+ 
+Teori Singkat 
+Use Case Diagram digunakan untuk memodelkan interaksi antara pengguna dan sistem. 
+
+Bahan dan Alat 
+• Draw.io / StarUML/ Astah 
+
+Contoh Permasalahan 
+Sistem sulit dipahami karena tidak ada dokumentasi interaksi pengguna. 
+
+Studi Kasus 
+1. Prosedur Autentikasi dan Akses Dashboard (UC-DG05)
+Akses terhadap panel kendali utama memerlukan proses autentikasi akun administrator guna menjamin keamanan data. Admin diwajibkan melakukan input kredensial berupa username dan password yang kemudian akan divalidasi oleh sistem. Keberhasilan verifikasi akan memberikan hak akses penuh ke halaman dashboard, sedangkan kegagalan autentikasi atau input data yang tidak lengkap akan memicu sistem untuk menampilkan pesan galat serta membatasi akses demi keamanan.
+2. Mekanisme Pencarian Buku (UC-DG01)
+Sistem menyediakan fitur pencarian literatur berbasis kata kunci untuk mempermudah pengguna dalam menemukan referensi. Pengguna dapat menginput parameter pencarian pada kolom yang tersedia, yang kemudian akan diproses oleh sistem untuk menampilkan hasil yang paling relevan dari database. Dalam kondisi kolom pencarian kosong atau data yang dicari tidak terdaftar, sistem akan memberikan notifikasi informatif mengenai ketidaktersediaan data tersebut.
+3. Tata Kelola Inventaris Buku (UC-DG02 & UC-DG03)
+Manajemen koleksi perpustakaan dilakukan sepenuhnya oleh administrator melalui modul inventaris. Proses ini mencakup pencatatan rincian buku secara mendalam, seperti judul, penulis, dan informasi teknis lainnya untuk disimpan ke dalam basis data. Selain itu, admin dapat mengorganisir koleksi melalui fitur pengelolaan kategori (tambah, edit, dan hapus). Sistem dilengkapi dengan fitur validasi input yang akan memberikan peringatan otomatis jika ditemukan ketidakkonsistenan data atau kegagalan saat proses penyimpanan.
+4. Pemanfaatan Koleksi Dokumen Digital (UC-DG04)
+Sebagai solusi perpustakaan modern, DIGIRO memfasilitasi akses langsung terhadap literatur digital. Pengguna memiliki opsi untuk melakukan peninjauan (view) atau mengunduh dokumen yang tersedia melalui antarmuka aplikasi. Sistem akan mengeksekusi permintaan tersebut hingga berkas berhasil diterima oleh perangkat pengguna. Jika terjadi kendala teknis pada peladen (server) atau dokumen belum tersedia, sistem akan secara otomatis memberikan laporan kegagalan pemuatan guna memberikan kepastian informasi kepada pengguna
+
+
