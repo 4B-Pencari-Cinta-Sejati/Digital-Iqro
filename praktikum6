@@ -1,0 +1,34 @@
+Analisis Proses Bisnis: Inventarisasi Buku (DIGIRO)
+Identitas Penyusun:
+
+Nama: Dede Amelia Rahman
+
+NIM: 2403015090
+
+Instansi: Universitas Muhammadiyah Prof. Dr. Hamka (UHAMKA)
+
+1. Deskripsi Alur Aktivitas (Business Process Narrative)
+Dokumentasi ini merinci prosedur teknis yang dilakukan oleh Administrator dalam memperbarui basis data koleksi pada platform DIGIRO:
+
+Tahap Inisiasi: Admin mengakses fungsionalitas "Input Data" melalui antarmuka aplikasi setelah melalui prosedur autentikasi yang valid.
+
+Entri Informasi: Admin melakukan pengisian metadata buku secara komprehensif, yang meliputi judul, nama penulis, identitas penerbit, tahun rilis, serta kuantitas stok yang tersedia.
+
+Verifikasi Sistem: Saat instruksi simpan dieksekusi, sistem melakukan validasi otomatis untuk memastikan seluruh parameter data telah terisi sesuai ketentuan.
+
+Penanganan Galat (Exception): Apabila ditemukan diskontinuitas atau kekosongan data, sistem akan memicu pesan kesalahan (error message) dan mengarahkan kembali pengguna ke formulir input untuk perbaikan.
+
+Eksekusi Penyimpanan: Dalam kondisi data tervalidasi lengkap, sistem akan melakukan commit atau sinkronisasi data ke dalam database pusat.
+
+Output Final: Prosedur diakhiri dengan pemunculan notifikasi keberhasilan, dan data buku secara otomatis akan terdaftar dalam katalog pustaka digital.
+
+2. Pedoman Pemodelan Diagram Aktivitas (UML Activity Diagram Guide)
+Untuk memastikan akurasi pemodelan visual menggunakan notasi UML, berikut adalah komponen-komponen yang harus diimplementasikan:
+
+Initial Node (Titik Awal): Digambarkan dengan simbol lingkaran hitam solid sebagai representasi dimulainya sesi entri data oleh Admin.
+
+Action States (Negara Aktivitas): Menggunakan bentuk persegi panjang dengan sudut membulat (rounded rectangle) untuk merepresentasikan setiap langkah fungsional, seperti "Entri Metadata Buku", "Validasi Sistem", dan "Konfirmasi Keberhasilan".
+
+Decision Node (Simpul Keputusan): Menggunakan simbol belah ketupat (diamond) untuk mengevaluasi logika "Apakah Data Lengkap?". Sertakan label alur (guard conditions) "Ya" untuk melanjutkan ke penyimpanan database dan "Tidak" untuk kembali ke tahap pengisian.
+
+Final Node (Titik Akhir): Menggunakan simbol lingkaran ganda (lingkaran hitam di dalam lingkaran luar) untuk menandakan bahwa seluruh rangkaian proses bisnis telah selesai dieksekusi secara sempurna.
