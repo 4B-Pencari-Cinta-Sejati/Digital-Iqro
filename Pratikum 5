@@ -1,6 +1,25 @@
+Pertemuan 4 – Teknik Elicitation Kebutuhan
+Designer
+
+Tujuan : Mahasiswa dapat mengumpulkan data Kebutuhan dari client sesuai dengan perencanaan
+Teori Singkat
+Elicitation adalah teknik pengumpulan kebutuhan seperti:
+•	Wawancara
+•	Observasi
+•	Kuesioner
+•	Studi dokumen
+
+Bahan dan Alat
+•	Google Form / Dokumen
+•	Template wawancara
+Contoh Permasalahan
+Pengembang hanya menebak kebutuhan tanpa komunikasi dengan pengguna.
+Studi Kasus
+•	Simulasikan wawancara dengan pengguna
+•	Buat daftar pertanyaan
+•	Ringkas hasil elicitation
 
 1. Proses Autentikasi dan Akses Dashboard (UC-DG05)
-
 Administrator memulai interaksi dengan sistem melalui halaman login untuk memastikan validitas hak akses sebagai pengelola.
 Pada tahap ini, admin memasukkan username dan password yang kemudian diverifikasi oleh sistem berdasarkan data yang tersimpan di database.
 Jika proses autentikasi berhasil, admin akan diarahkan ke dashboard utama sebagai pusat pengelolaan sistem. Sebaliknya, jika data yang dimasukkan tidak sesuai atau terdapat kolom yang kosong, sistem akan menampilkan pesan kesalahan dan menolak akses guna menjaga keamanan.
