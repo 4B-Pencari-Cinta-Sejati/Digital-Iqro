@@ -1,0 +1,35 @@
+Pertemuan 6 – Activity Diagram dan Business Process
+
+Analyst
+Nama Kelompok:
+1.	Gifta Ananda Aghnaa
+2.	Dede Amelia Rahman
+3.	Luthfiyah Ramadhani
+4.	Abdullah Nawap
+5.	Ariq Gusmila 
+ 
+Tujuan: Mahasiswa dapat menggambarkan proses bisnis sistem dan kegiatan yang berhubungan dengan sistem yang akan dibuat 
+
+Teori Singkat 
+Activity Diagram menggambarkan alur aktivitas atau proses bisnis dalam sistem.
+ 
+Bahan dan Alat
+ • UML Tool Contoh Permasalahan Alur sistem tidak jelas dan membingungkan pengguna. 
+
+Studi Kasus 
+1. Narasi Alur Aktivitas (Business Process)
+Bagian ini menguraikan prosedur sistematis bagi Administrator dalam melakukan penambahan aset literasi ke dalam basis data DIGIRO:
+•	Inisiasi Sistem: Administrator mengakses modul "Input Data" melalui antarmuka aplikasi setelah sesi autentikasi berhasil diverifikasi.
+•	Entri Data Pustaka: Administrator melakukan input parameter detail buku yang meliputi: Judul, Penulis, Penerbit, Tahun Terbit, dan Kuantitas Stok.
+•	Validasi Integritas: Saat instruksi penyimpanan dieksekusi, sistem secara otomatis menjalankan prosedur verifikasi untuk memastikan seluruh kolom wajib (mandatory fields) telah terisi.
+•	Penanganan Galat (Kondisi Gagal): Apabila ditemukan ketidaklengkapan data, sistem akan memicu pesan peringatan (error message) dan mengarahkan kembali pengguna ke formulir entri untuk perbaikan.
+•	Eksekusi Basis Data (Kondisi Sukses): Jika validasi terpenuhi, sistem akan melakukan penulisan data secara permanen ke dalam tabel inventaris.
+•	Finalisasi & Konfirmasi: Prosedur diakhiri dengan tampilan notifikasi keberhasilan, dan data terbaru secara otomatis akan terdaftar dalam katalog pustaka sistem.
+________________________________________
+2. Spesifikasi Notasi UML (Activity Diagram)
+Untuk menjamin standarisasi dan akurasi pada pemodelan Activity Diagram, elemen-elemen berikut harus diterapkan secara konsisten:
+•	Initial Node: Direpresentasikan dengan simbol lingkaran hitam solid (●) untuk menandai titik awal dimulainya aktivitas operasional oleh Admin.
+•	Action States: Digambarkan dengan persegi panjang bersudut tumpul (rounded rectangle) untuk merepresentasikan setiap langkah fungsional, seperti "Input Parameter Buku", "Validasi Sistem", dan "Output Konfirmasi".
+•	Decision Node: Menggunakan simbol belah ketupat (diamond) untuk merepresentasikan logika percabangan. Node ini akan memvalidasi kondisi "Apakah Data Lengkap?", dengan alur "Ya" menuju penyimpanan dan alur "Tidak" yang menginstruksikan pengulangan input.
+•	Final Node: Dilambangkan dengan lingkaran hitam di dalam lingkaran tepi (bullseye) untuk menandai berakhirnya siklus aktivitas setelah record data terverifikasi dan tersimpan sepenuhnya dalam sistem.
+
