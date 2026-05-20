@@ -1,0 +1,32 @@
+Analisis Proses Bisnis: Input Data Buku (DIGIRO):
+Designer
+
+Instansi: Universitas Muhammadiyah Prof. Dr. Hamka (UHAMKA)
+
+1. Narasi Alur Proses Bisnis (Business Process)
+Prosedur pengelolaan inventaris buku baru oleh Admin pada sistem DIGIRO dirinci sebagai berikut:
+
+Inisiasi: Admin mengakses menu "Input Data" pada aplikasi setelah proses autentikasi berhasil.
+
+Input Data: Admin melengkapi parameter informasi buku (Judul, Penulis, Penerbit, Tahun, dan Stok).
+
+Validasi: Saat instruksi simpan dipicu, sistem melakukan verifikasi integritas dan kelengkapan data.
+
+Percabangan Kondisi:
+
+Gagal: Jika data tidak lengkap, sistem memunculkan pesan galat (error) dan mengarahkan kembali ke formulir.
+
+Sukses: Jika data valid, sistem mengeksekusi penyimpanan ke pangkalan data.
+
+Finalisasi: Sistem menerbitkan notifikasi keberhasilan dan memperbarui daftar pustaka secara otomatis.
+
+2. Spesifikasi Notasi UML (Activity Diagram)
+Untuk menjamin akurasi teknis pada Activity Diagram, pastikan penggunaan elemen standar berikut:
+
+Initial Node: Simbol lingkaran hitam solid sebagai titik awal saat Admin membuka menu input.
+
+Action States: Persegi panjang dengan sudut tumpul untuk merepresentasikan aktivitas fungsional sistem dan aktor.
+
+Decision Node: Simbol belah ketupat untuk logika pengecekan "Data Lengkap?". Sertakan label "Ya" untuk melanjutkan penyimpanan dan "Tidak" untuk pengulangan input.
+
+Final Node: Simbol lingkaran hitam dengan garis tepi lingkaran sebagai tanda berakhirnya seluruh rangkaian proses.
