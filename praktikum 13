@@ -1,0 +1,18 @@
+Pertemuan 13 – Dokumentasi dan Deployment
+
+Tujuan: Mahasiswa mampu mendokumentasikan seluruh rancangan, pekerjaan dan rencana perawatan sistem yang dibangun.
+Teori Singkat: Dokumentasi penting untuk pemeliharaan dan pengembangan lanjutan.
+Bahan dan Alat: Markdown / Word, Hosting (opsional).
+
+Langkah-Langkah Praktikum:
+1. Membuat dokumen dokumentasi pengguna (User Manual) yang lengkap dan mudah dipahami oleh petugas perpustakaan.
+2.Menyusun dokumen dokumentasi teknis (arsitektur kode, skema database) untuk kebutuhan pemeliharaan jangka panjang.
+3.Menyiapkan file proyek dan basis data .sql untuk proses perilisan sistem.
+4.Melakukan simulasi deployment aplikasi dari lingkungan lokal (localhost) ke pelayan web hosting/cloud agar sistem dapat diakses secara online.
+
+Hasil Praktikum: Tersedianya dokumen panduan yang lengkap untuk pengguna dan tim teknis, serta keberhasilan tahap deployment di mana Digiro Sistem Berbasis Perpustakaan
+telah aktif dan dapat dimuat sempurna melalui jaringan internet/publik.
+Kesimpulan: Proses deployment menandakan selesainya siklus rekayasa teknis aplikasi perpustakaan, mengubah kode lokal menjadi layanan komputasi awan 
+yang dapat diakses dari mana saja secara meluas.
+
+Tugas Kelompok: Menyusun berkas panduan ringkas satu halaman berisi tata cara penambahan akun siswa baru khusus untuk dibaca oleh Penjaga Perpustakaan.
