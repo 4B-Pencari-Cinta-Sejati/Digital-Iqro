@@ -1,0 +1,22 @@
+Pertemuan 12 – Pengujian Perangkat Lunak
+
+Tujuan: Mahasiswa mampu melakukan pengujian terhadap program, sistem dan fungsi yang telah dibangun.
+Teori Singkat: Pengujian bertujuan menemukan kesalahan sebelum sistem digunakan. 
+Jenis testing: Black-box, White-box, Unit testing.
+Bahan dan Alat: Test case template, aplikasi web Digiro Sistem yang aktif.
+
+Langkah-Langkah Praktikum:
+1. Menyusun dokumen rencana pengujian (Test Case Template) secara lengkap dan sistematis untuk fungsionalitas
+sistem (Login, Tambah Buku, Cari Buku).
+2. Melakukan pelaksanaan testing secara menyeluruh dengan memasukkan input data valid maupun kondisi ekstrem.
+3. Mengamati respon sistem dan mendokumentasikan hasil pengujian apakah Berhasil (Pass) atau Gagal (Fail) dengan jelas.
+4. Mencatat letak kesalahan/bug jika ditemukan ke dalam tabel penelusuran.
+
+Hasil Praktikum: Dokumen dokumentasi hasil pengujian perangkat lunak yang jelas dan sistematis. Sebagai contoh:
+Pengujian login pustakawan dengan akun valid: Status PASS.
+Pengujian transaksi peminjaman saat stok buku = 0: Sistem memunculkan alert "Stok Buku Habis" dan menolak simpan: Status PASS.
+
+Kesimpulan: Tahap testing memberikan kepastian objektif bahwa fungsionalitas krusial Digiro Sistem berjalan andal sesuai 
+alur operasional perpustakaan sekolah yang aman dari kerusakan sistem data.
+Tugas Kelompok: Membuat minimal 10 baris matriks uji fungsionalitas khusus untuk modul pengembalian buku terlambat 
+(perhitungan denda otomatis) menggunakan format tabel pengujian resmi.
