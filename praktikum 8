@@ -1,0 +1,19 @@
+Pertemuan 8 – Perancangan Antarmuka (UI/UX)
+Tujuan: Mahasiswa dapat menggambarkan dan mengimplementasikan tampilan/navigasi yang memudahkan pengguna pada sistem yang akan digunakan.
+Teori Singkat: UI/UX berfokus pada kenyamanan dan kemudahan penggunaan sistem.
+Bahan dan Alat: Figma
+
+Langkah-Langkah Praktikum:
+1. Membuat User Flow pencarian buku oleh siswa dan pemrosesan peminjaman oleh pustakawan.
+2. Merancang layout dasar (low-fidelity wireframe) halaman utama Digiro Sistem.
+3. Mentransformasikan rancangan menjadi bentuk high-fidelity UI mockup dengan palet warna institusional yang rapi.
+4.Menghubungkan antar komponen halaman untuk membentuk prototipe interaktif sederhana (alur navigasi).
+
+Hasil Praktikum: 
+Prototipe desain antarmuka Digiro Sistem yang interaktif dan menerapkan prinsip UI/UX yang baik, mencakup:
+1. Halaman Login dengan form input yang bersih dan validasi visual yang jelas.
+2. Dashboard Penjaga Perpustakaan yang menampilkan ringkasan grafik jumlah buku dipinjam, total anggota aktif, dan buku terlambat kembali.
+3.Antarmuka Katalog Buku bagi Siswa dengan fitur filter kategori (Sains, Novel, Komputer) dan kolom pencarian dinamis.
+
+Kesimpulan: Perancangan antarmuka (UI/UX) yang matang membantu meminimalkan beban kognitif pengguna, mempercepat proses sirkulasi harian, serta mereduksi potensi kesalahan input data dari operator perpustakaan.
+Tugas Kelompok: Melakukan pengujian kegunaan (usability testing) awal terhadap prototipe Figma yang telah dibuat kepada minimal dua orang pengguna potensial untuk mendapatkan umpan balik perbaikan layout.
