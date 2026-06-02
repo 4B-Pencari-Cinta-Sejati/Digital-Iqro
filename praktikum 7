@@ -1,0 +1,26 @@
+Pertemuan 7 – Perancangan Arsitektur Perangkat Lunak
+
+Tujuan: Mahasiswa dapat menjelaskan arsitektur sistem yang akan dikembangkan.
+Teori Singkat: Arsitektur perangkat lunak menggambarkan struktur sistem secara keseluruhan (layered, MVC, client-server).
+Bahan dan Alat: Diagram Tool (Draw.io).
+
+Langkah-Langkah Praktikum:
+1. Membuka instrumen pemodelan atau dokumen perancangan arsitektur.
+2.Melakukan analisis, menentukan arsitektur sistem (seperti pola atau Client-Server), dan menuliskan tujuan Digiro Sistem Berbasis Perpustakaan.
+3.Mengidentifikasi peran, tanggung jawab, dan kebutuhan setiap stakeholder (Penjaga Perpustakaan, Siswa/i, Kepala Sekolah, dan Developer).
+4.Mendefinisikan kebutuhan fungsional inti sistem seperti manajemen buku, peminjaman, dan pengembalian.
+5.Mendokumentasikan hasil identifikasi ke dalam diagram blok arsitektur yang sistematis.
+
+Hasil Praktikum:
+1.Pemilihan Arsitektur & Alasan Desain: Dipilih arsitektur terstruktur untuk menjamin keandalan sistem dalam menangani inventarisasi buku dan transaksi sirkulasi. Komponen dipisahkan secara logis agar aman dari risiko kegagalan data.
+
+Diagram Arsitektur (Identifikasi Pengguna):
+1. Penjaga Perpustakaan (Admin): Mengelola data buku (CRUD) dan mencatat transaksi peminjaman/pengembalian.
+2. Siswa/i (Anggota): Mencari katalog referensi literatur serta riwayat pinjam.
+3. Kepala Sekolah (Management): Mengawasi aktivitas lewat dokumen laporan sirkulasi bulanan/tahunan.
+4. Developer (Technical Team): Membangun dan memelihara ekosistem aplikasi agar sesuai ruang lingkup.
+
+Kebutuhan Fungsional: Validasi login multi-aktor, modul CRUD data buku, pencatatan peminjaman otomatis dengan validasi sisa stok buku, dan visualisasi laporan transaksi sirkulasi.
+Kesimpulan: Perancangan arsitektur awal melalui penentuan stakeholder dan kebutuhan fungsional berperan sebagai pondasi dasar dalam pengembangan Digiro Sistem, memastikan arah pembuatan kode program tidak melenceng dari fungsionalitas operasional perpustakaan yang sesungguhnya.
+
+Tugas Kelompok: Membuat dokumen Software Architecture Document (SAD) ringkas mengenai aliran data autentikasi login multi-level (Admin Perpustakaan, Siswa, dan Kepala Sekolah) menggunakan diagram blok arsitektur.
