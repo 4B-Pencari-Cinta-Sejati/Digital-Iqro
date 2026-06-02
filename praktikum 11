@@ -1,0 +1,18 @@
+Pertemuan 11 – Version Control dan Kolaborasi Tim
+
+Teori Singkat: Version control membantu pengelolaan perubahan kode dan kerja tim.
+Bahan dan Alat: GitHub.
+
+Langkah-Langkah Praktikum:
+1. Melakukan inisialisasi lokal git repository pada direktori proyek perpustakaan (git init).
+2. Membuat berkas .gitignore untuk mengecualikan folder dependensi lokal (seperti folder node_modules atau vendor).
+3. Menambahkan remote repository GitHub dan melakukan commit awal untuk dikirim ke cabang utama (main/master).
+4. Membuat cabang baru (feature branch) untuk membagi tugas pengerjaan modul secara kolaboratif (misal: branch-fitur-katalog, branch-fitur-laporan).
+5. Melakukan proses pull request, penyelarasan commit message, dan resolusi konflik jika ditemukan perbedaan baris kode saat penggabungan (merging).
+
+Hasil Praktikum: Repositori GitHub proyek Digiro Sistem yang dikelola dengan penggunaan Git yang aktif dan benar. Format commit message jelas dan konsisten,
+serta dokumentasi kolaborasi tim terlihat transparan melalui riwayat merge cabang tanpa merusak kode utama.
+Kesimpulan: Pemanfaatan Git dan GitHub meningkatkan efisiensi koordinasi tim pengembang, meminimalkan bug akibat hilangnya potongan kode,
+serta mempermudah pelacakan stabilitas sistem perpustakaan.
+
+Tugas Kelompok: Mempraktikkan proses simulasi code conflict antarpengembang di dalam satu file controller dan menyelesaikan perbaikannya bersama menggunakan fitur penggabungan di VS Code.
