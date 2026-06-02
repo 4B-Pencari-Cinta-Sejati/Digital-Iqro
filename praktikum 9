@@ -1,0 +1,19 @@
+Pertemuan 9 – Perancangan Basis Data
+
+Tujuan: Mahasiswa mampu memahami merancang basis data yang mendukung fungsi sistem yang akan diimplementasikan.
+Teori Singkat: Basis data dirancang menggunakan ERD dan normalisasi untuk menghindari redundansi.
+Bahan dan Alat: MySQL
+
+Langkah-Langkah Praktikum:
+1. Mengidentifikasi seluruh entitas utama penyusun sistem perpustakaan (Buku, Anggota/Siswa, Petugas, Transaksi_Pinjam, Detail_Pinjam).
+2. Menentukan atribut, tipe data (VARCHAR, INT, DATE), serta relasi & kunci utama (Primary Key dan Foreign Key) pada tiap entitas.
+3. Menggambarkan diagram relasi entitas (Entity Relationship Diagram - ERD) dan Class Diagram.
+4. Melakukan pengujian normalisasi hingga tahap 3NF guna menghindari redundansi dan data duplikat.
+
+Hasil Praktikum: Dokumen skema ERD, Class Diagram, dan struktur relasi kunci yang tepat dan konsisten serta telah memenuhi kaidah Normalisasi hingga 3NF:
+1. Tabel petugas terelasi dengan tabel peminjaman untuk mencatat operator transaksi.
+2. Tabel siswa terelasi dengan tabel peminjaman untuk mencatat identitas peminjam buku.
+3. Tabel peminjaman terhubung dengan tabel buku melalui tabel penengah detail_peminjaman guna mendukung peminjaman multi-buku dalam satu kali transaksi tanpa anomali.
+
+Kesimpulan: Perancangan ERD basis data yang terstruktur secara ketat menjamin kecepatan eksekusi kueri sirkulasi data dan menjaga keaslian data riwayat transaksi perpustakaan sekolah dari waktu ke waktu.
+Tugas Kelompok: Menuliskan naskah DDL (Data Definition Language) SQL dalam bentuk sintaks CREATE TABLE lengkap dengan constraint relasinya untuk diuji coba pada DBMS MySQL.
