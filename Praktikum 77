@@ -1,0 +1,98 @@
+Pertemuan 7 – Perancangan Arsitektur Perangkat Lunak
+Ariq Gusmila (Programmer)
+Tujuan Praktikum
+Mahasiswa mampu memahami, merancang, dan menjelaskan struktur arsitektur perangkat lunak yang akan digunakan dalam pengembangan sistem informasi perpustakaan digital.
+Landasan Teori
+Arsitektur perangkat lunak merupakan representasi struktur dasar sebuah sistem yang menunjukkan hubungan antar komponen, aliran data, serta pembagian tanggung jawab setiap bagian sistem. Beberapa model arsitektur yang umum digunakan antara lain Layered Architecture, Model-View-Controller (MVC), dan Client-Server Architecture. Perancangan arsitektur yang baik membantu pengembang dalam membangun sistem yang terorganisir, mudah dipelihara, dan dapat dikembangkan di masa mendatang.
+Alat dan Bahan
+Aplikasi pemodelan diagram seperti Draw.io
+Dokumen kebutuhan sistem
+Perangkat komputer atau laptop
+Langkah-Langkah Praktikum
+1. Persiapan
+Menyiapkan perangkat lunak pemodelan yang akan digunakan serta membuka dokumen kebutuhan sistem sebagai acuan dalam merancang arsitektur perangkat lunak.
+2. Analisis Kebutuhan dan Penentuan Tujuan
+Menentukan jenis arsitektur yang sesuai untuk sistem "Digiro Sistem Berbasis Perpustakaan", kemudian merumuskan tujuan utama pengembangan sistem agar dapat mendukung proses pengelolaan perpustakaan secara efektif dan efisien.
+3. Identifikasi Stakeholder
+Melakukan pemetaan pihak-pihak yang akan berinteraksi dengan sistem beserta peran dan tanggung jawabnya, meliputi pustakawan, siswa, kepala sekolah, dan tim pengembang.
+4. Analisis Fitur Utama
+Mengidentifikasi fitur-fitur utama yang harus tersedia dalam sistem, seperti manajemen katalog buku, proses peminjaman dan pengembalian buku, autentikasi pengguna, serta penyajian laporan operasional perpustakaan.
+5. Dokumentasi Arsitektur
+Menyusun hasil analisis ke dalam bentuk diagram blok arsitektur yang menggambarkan hubungan antar komponen sistem serta alur data yang terjadi.
+Hasil Praktikum
+Pemilihan Arsitektur dan Alasan Penggunaan
+Pada pengembangan Digiro Sistem Berbasis Perpustakaan dipilih pendekatan arsitektur terstruktur dengan pola Client-Server. Pendekatan ini memungkinkan pemisahan yang jelas antara antarmuka pengguna, logika aplikasi, dan penyimpanan data. Dengan struktur tersebut, sistem menjadi lebih stabil dalam mengelola data inventaris buku serta transaksi peminjaman dan pengembalian. Selain itu, pemisahan komponen membantu menjaga konsistensi data dan meminimalkan kemungkinan terjadinya kehilangan atau kerusakan data.
+Identifikasi Pengguna Sistem
+1. Pustakawan (Administrator)
+Pustakawan memiliki hak akses penuh terhadap sistem. Tugas utama meliputi pengelolaan data buku, penambahan dan pembaruan katalog, penghapusan data yang tidak diperlukan, serta pencatatan transaksi peminjaman dan pengembalian buku.
+2. Siswa (Anggota Perpustakaan)
+Siswa dapat memanfaatkan sistem untuk melakukan pencarian buku berdasarkan katalog yang tersedia, melihat status ketersediaan buku, serta memantau riwayat peminjaman yang pernah dilakukan.
+3. Kepala Sekolah
+Kepala sekolah berperan sebagai pihak manajemen yang memanfaatkan sistem untuk memperoleh laporan aktivitas perpustakaan. Informasi yang dapat diakses meliputi statistik peminjaman, jumlah koleksi, dan laporan operasional berkala.
+4. Tim Pengembang (Developer)
+Tim pengembang bertanggung jawab dalam merancang, mengimplementasikan, menguji, serta melakukan pemeliharaan sistem agar dapat beroperasi sesuai kebutuhan pengguna dan tujuan organisasi.
+Spesifikasi Fungsional Sistem
+Sistem yang dirancang harus menyediakan beberapa fungsi utama, antara lain:
+Fitur autentikasi dan otorisasi pengguna berdasarkan level akses.
+Pengelolaan data buku melalui operasi Create, Read, Update, dan Delete (CRUD).
+Pencatatan transaksi peminjaman buku secara otomatis.
+Pembaruan stok buku secara real-time setelah terjadi transaksi.
+Pengelolaan proses pengembalian buku.
+Penyajian laporan sirkulasi perpustakaan dalam bentuk tabel maupun visualisasi data.
+Penyimpanan data yang terintegrasi dalam basis data terpusat.
+Kesimpulan
+Perancangan arsitektur perangkat lunak merupakan tahapan penting yang harus dilakukan sebelum proses implementasi sistem dimulai. Melalui identifikasi kebutuhan pengguna, analisis fitur utama, serta pemilihan model arsitektur yang tepat, pengembangan Digiro Sistem Berbasis Perpustakaan dapat dilakukan secara lebih terarah. Dengan adanya rancangan yang jelas, proses pengkodean yang dilakukan oleh programmer menjadi lebih terstruktur dan sesuai dengan kebutuhan operasional perpustakaan.
+Penugasan Kelompok
+Software Architecture Document (SAD) Ringkas
+Deskripsi Sistem
+Digiro Sistem Berbasis Perpustakaan merupakan aplikasi yang digunakan untuk mendukung pengelolaan data perpustakaan secara digital. Sistem menyediakan mekanisme autentikasi multi-level sehingga setiap pengguna memperoleh hak akses sesuai dengan perannya.
+Diagram Blok Arsitektur Multi-Level Login
++------------------+
+|      Pengguna    |
++------------------+
+        |
+        v
++------------------+
+|  Halaman Login   |
++------------------+
+        |
+        v
++------------------+
+| Validasi Akun    |
+| Username & Pass  |
++------------------+
+        |
+        v
++------------------+
+|    Database      |
+|   Pengguna       |
++------------------+
+        |
+        v
++------------------------------+
+| Cek Level Hak Akses Pengguna |
++------------------------------+
+        |
+   +----+----+----+
+   |         |    |
+   v         v    v
++-------+ +-------+ +-------------+
+| Admin | | Siswa | | Kep. Sekolah|
++-------+ +-------+ +-------------+
+   |         |            |
+   v         v            v
+Kelola   Cari Buku    Lihat
+Data     & Riwayat    Laporan
+Buku     Pinjaman     Perpustakaan
+Alur Proses Login
+Pengguna memasukkan username dan password pada halaman login.
+Sistem melakukan validasi terhadap data yang dimasukkan.
+Data login dibandingkan dengan data pengguna yang tersimpan pada database.
+Jika data valid, sistem mengidentifikasi level akses pengguna.
+Pengguna diarahkan ke dashboard sesuai perannya:
+Admin Perpustakaan → Dashboard Administrasi.
+Siswa → Dashboard Anggota.
+Kepala Sekolah → Dashboard Laporan.
+Jika data tidak valid, sistem menampilkan pesan kesalahan dan meminta pengguna melakukan login kembali.
+Kesimpulan SAD
+Implementasi autentikasi multi-level memungkinkan setiap pengguna memperoleh akses sesuai dengan tanggung jawabnya. Struktur arsitektur ini meningkatkan keamanan sistem, memudahkan pengelolaan hak akses, dan mendukung operasional perpustakaan secara lebih efektif.
