@@ -1,0 +1,56 @@
+# Pertemuan 12 – Pengujian Perangkat Lunak
+
+## Tujuan
+
+Mahasiswa diharapkan mampu melaksanakan proses pengujian terhadap program, sistem, maupun fitur yang telah dikembangkan guna memastikan seluruh fungsi berjalan sesuai dengan kebutuhan dan spesifikasi yang telah ditetapkan.
+
+## Teori Singkat
+
+Pengujian perangkat lunak merupakan tahapan penting dalam siklus pengembangan sistem yang bertujuan untuk mengidentifikasi kesalahan, cacat (bug), maupun ketidaksesuaian fungsi sebelum aplikasi digunakan oleh pengguna akhir. Melalui proses pengujian, kualitas, keandalan, dan stabilitas sistem dapat dievaluasi secara objektif.
+
+Beberapa metode pengujian yang umum digunakan meliputi:
+
+* **Black-Box Testing**, yaitu pengujian yang berfokus pada fungsi sistem tanpa memperhatikan struktur kode program.
+* **White-Box Testing**, yaitu pengujian yang dilakukan dengan meninjau logika dan struktur internal kode program.
+* **Unit Testing**, yaitu pengujian terhadap unit atau komponen program secara terpisah untuk memastikan setiap bagian bekerja dengan benar.
+
+## Bahan dan Alat
+
+* Template Test Case
+* Aplikasi Web Digiro Sistem yang telah aktif dan dapat diakses
+
+## Langkah-Langkah Praktikum
+
+### 1. Penyusunan Dokumen Pengujian
+
+Menyusun dokumen rencana pengujian (Test Case) secara sistematis yang mencakup berbagai fitur utama sistem, seperti proses login, pengelolaan data buku, dan pencarian koleksi buku.
+
+### 2. Pelaksanaan Pengujian
+
+Melakukan pengujian terhadap seluruh fungsi yang telah ditentukan dengan menggunakan berbagai skenario, baik data yang valid maupun kondisi khusus atau ekstrem yang berpotensi menimbulkan kesalahan pada sistem.
+
+### 3. Evaluasi Hasil Pengujian
+
+Mengamati perilaku sistem terhadap setiap skenario pengujian yang dijalankan, kemudian mendokumentasikan hasilnya dengan kategori **Pass** apabila sesuai harapan atau **Fail** apabila ditemukan ketidaksesuaian.
+
+### 4. Dokumentasi Temuan Bug
+
+Mencatat setiap kesalahan, bug, maupun anomali yang ditemukan selama proses pengujian ke dalam tabel pelacakan (bug tracking) untuk memudahkan proses perbaikan oleh tim pengembang.
+
+## Hasil Praktikum
+
+Praktikum menghasilkan dokumen pengujian perangkat lunak yang tersusun secara sistematis dan mampu menggambarkan tingkat keberhasilan setiap fitur yang diuji. Dokumentasi tersebut menjadi acuan dalam mengevaluasi kualitas sistem yang telah dikembangkan.
+
+Beberapa contoh hasil pengujian yang diperoleh antara lain:
+
+* Pengujian login pustakawan menggunakan akun yang valid berhasil dilakukan dan sistem memberikan akses sesuai hak pengguna dengan status **PASS**.
+* Pengujian transaksi peminjaman ketika stok buku telah habis menghasilkan notifikasi **“Stok Buku Habis”** dan sistem menolak penyimpanan transaksi, sehingga memperoleh status **PASS**.
+* Pengujian fitur pencarian buku menunjukkan hasil yang sesuai dengan kata kunci yang dimasukkan pengguna sehingga fungsi pencarian dinyatakan berjalan dengan baik.
+
+## Kesimpulan
+
+Tahap pengujian memberikan jaminan bahwa fitur-fitur utama pada Digiro Sistem dapat beroperasi secara stabil dan sesuai dengan kebutuhan operasional perpustakaan sekolah. Melalui proses testing yang terstruktur, berbagai potensi kesalahan dapat dideteksi lebih awal sehingga risiko gangguan sistem maupun kerusakan data dapat diminimalkan sebelum aplikasi digunakan secara penuh oleh pengguna.
+
+## Tugas Kelompok
+
+Menyusun sedikitnya sepuluh skenario pengujian fungsional untuk modul pengembalian buku yang mengalami keterlambatan. Setiap skenario harus memuat perhitungan denda otomatis berdasarkan aturan yang berlaku dan didokumentasikan menggunakan format tabel pengujian resmi yang mencakup data uji, langkah pengujian, hasil yang diharapkan, hasil aktual, serta status pengujian.
