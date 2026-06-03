@@ -1,0 +1,57 @@
+# Pertemuan 8 – Perancangan Antarmuka (UI/UX)
+
+## Tujuan
+
+Mahasiswa diharapkan mampu merancang serta mengimplementasikan tampilan antarmuka dan alur navigasi sistem yang intuitif sehingga dapat memberikan pengalaman penggunaan yang nyaman, efektif, dan mudah dipahami oleh pengguna.
+
+## Teori Singkat
+
+Perancangan User Interface (UI) dan User Experience (UX) berfokus pada penciptaan sistem yang tidak hanya menarik secara visual, tetapi juga mudah digunakan. Penerapan prinsip UI/UX yang baik dapat meningkatkan kenyamanan pengguna, mempercepat penyelesaian tugas, serta mengurangi kemungkinan terjadinya kesalahan saat berinteraksi dengan sistem.
+
+## Bahan dan Alat
+
+* Figma
+
+## Langkah-Langkah Praktikum
+
+### 1. Penyusunan User Flow
+
+Membuat alur penggunaan sistem (User Flow) yang menggambarkan proses pencarian buku oleh siswa serta alur peminjaman buku yang dilakukan oleh petugas perpustakaan. Tahap ini bertujuan untuk memahami perjalanan pengguna dalam menggunakan sistem.
+
+### 2. Perancangan Wireframe
+
+Menyusun rancangan awal antarmuka dalam bentuk low-fidelity wireframe yang menggambarkan struktur dasar halaman utama Digiro Sistem tanpa menitikberatkan pada aspek visual secara detail.
+
+### 3. Pembuatan Mockup Antarmuka
+
+Mengembangkan wireframe menjadi high-fidelity mockup dengan menambahkan elemen visual seperti warna, ikon, tipografi, dan komponen antarmuka lainnya. Desain dibuat menggunakan palet warna yang konsisten dan sesuai dengan identitas institusi.
+
+### 4. Pengembangan Prototipe Interaktif
+
+Menghubungkan setiap halaman dan komponen antarmuka untuk membentuk prototipe interaktif yang mampu mensimulasikan alur navigasi pengguna saat menggunakan sistem.
+
+## Hasil Praktikum
+
+Praktikum menghasilkan prototipe antarmuka Digiro Sistem yang interaktif dan dirancang berdasarkan prinsip-prinsip UI/UX yang baik. Desain yang dihasilkan mampu memberikan pengalaman penggunaan yang lebih efektif dan mudah dipahami oleh berbagai jenis pengguna.
+
+Beberapa komponen utama yang berhasil dirancang meliputi:
+
+### 1. Halaman Login
+
+Tersedia halaman autentikasi dengan tampilan yang sederhana, bersih, dan mudah digunakan. Formulir login dilengkapi dengan validasi visual yang membantu pengguna dalam mengidentifikasi kesalahan input secara cepat.
+
+### 2. Dashboard Petugas Perpustakaan
+
+Dashboard dirancang untuk menampilkan informasi penting secara ringkas dan informatif, seperti jumlah buku yang sedang dipinjam, total anggota aktif, serta data keterlambatan pengembalian buku yang disajikan dalam bentuk grafik dan ringkasan statistik.
+
+### 3. Halaman Katalog Buku
+
+Antarmuka katalog buku memungkinkan siswa untuk mencari dan menemukan koleksi perpustakaan dengan lebih mudah melalui fitur pencarian dinamis dan filter kategori, seperti Sains, Novel, dan Komputer.
+
+## Kesimpulan
+
+Perancangan antarmuka pengguna yang matang memberikan kontribusi besar terhadap kualitas sistem yang dikembangkan. Dengan menerapkan prinsip UI/UX yang tepat, pengguna dapat berinteraksi dengan sistem secara lebih cepat, nyaman, dan efisien. Selain itu, desain yang baik juga mampu mengurangi beban kognitif pengguna, mempercepat proses operasional perpustakaan, serta meminimalkan risiko kesalahan dalam penginputan maupun pengelolaan data.
+
+## Tugas Kelompok
+
+Melaksanakan pengujian kegunaan (usability testing) terhadap prototipe yang telah dirancang menggunakan Figma dengan melibatkan minimal dua calon pengguna. Hasil pengujian digunakan untuk mengumpulkan masukan terkait kemudahan penggunaan, tata letak antarmuka, dan efektivitas navigasi sebagai dasar perbaikan desain pada tahap berikutnya.
