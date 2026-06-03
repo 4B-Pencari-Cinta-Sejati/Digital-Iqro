@@ -1,0 +1,24 @@
+Pertemuan 9 – Perancangan Basis Data
+Luthfiyah Ramadhani (designer)
+
+Tujuan: Mahasiswa mampu memahami merancang basis data yang mendukung fungsi sistem yang akan diimplementasikan.
+Teori Singkat: Basis data dirancang menggunakan ERD dan normalisasi untuk menghindari redundansi.
+Bahan dan Alat: MySQL
+
+Tahapan Praktikum
+Identifikasi Entitas: Memetakan seluruh komponen utama yang menyusun sistem perpustakaan, meliputi Buku, Anggota (Siswa), Petugas, Transaksi_Pinjam, dan Detail_Pinjam.
+Spesifikasi Atribut & Kunci: Menetapkan rincian atribut, tipe data (seperti VARCHAR, INT, DATE), serta jalur relasi antar-entitas menggunakan Primary Key (PK) dan Foreign Key (FK).
+Pemodelan Visual: Menerjemahkan rancangan sistem ke dalam bentuk Entity Relationship Diagram (ERD) dan Class Diagram.
+Normalisasi Basis Data: Melakukan pengujian struktur data hingga mencapai bentuk normal ketiga (3NF) guna menghilangkan duplikasi dan mencegah redundansi.
+
+Output Praktikum
+Praktikum ini menghasilkan dokumen rancangan (skema ERD, Class Diagram, dan struktur relasi) yang telah tervalidasi hingga standar 3NF. Detail pemetaan relasinya mencakup:
+Relasi Petugas – Peminjaman: Berfungsi untuk merekam rekam jejak petugas atau operator yang menangani sebuah transaksi.
+Relasi Siswa – Peminjaman: Berfungsi untuk mendata identitas anggota yang meminjam buku.
+Relasi Peminjaman – Buku: Memanfaatkan tabel perantara (detail_peminjaman) untuk mengakomodasi peminjaman beberapa buku sekaligus dalam satu transaksi, sehingga anomali data dapat dihindari.
+
+Kesimpulan
+Perancangan struktur ERD dan basis data yang presisi sangat krusial karena dapat memaksimalkan kecepatan eksekusi kueri pada data sirkulasi. Selain itu, desain yang baik menjamin keutuhan (integrity) dan validitas rekam jejak riwayat transaksi perpustakaan dalam jangka panjang.
+
+Penugasan Kelompok
+Susunlah naskah SQL menggunakan perintah Data Definition Language (DDL). Tugas ini difokuskan pada penulisan sintaks CREATE TABLE yang dilengkapi dengan batasan (constraint) relasi antar-tabel, untuk selanjutnya diuji coba langsung menggunakan DBMS MySQL.
