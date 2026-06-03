@@ -1,0 +1,44 @@
+# Pertemuan 8 – Perancangan Antarmuka Pengguna (UI/UX)
+
+## Tujuan
+
+Mahasiswa mampu merancang dan mengimplementasikan tampilan antarmuka serta alur navigasi yang mudah dipahami sehingga dapat meningkatkan pengalaman pengguna saat menggunakan sistem.
+
+## Teori Singkat
+
+UI (User Interface) dan UX (User Experience) merupakan aspek penting dalam pengembangan perangkat lunak yang berfokus pada kemudahan penggunaan, efisiensi interaksi, serta kenyamanan pengguna ketika mengoperasikan sistem.
+
+## Bahan dan Alat
+
+* Figma
+
+## Langkah-Langkah Praktikum
+
+1. Menyusun User Flow yang menggambarkan proses pencarian buku oleh siswa serta alur peminjaman yang dilakukan oleh petugas perpustakaan.
+2. Membuat rancangan awal antarmuka dalam bentuk low-fidelity wireframe sebagai kerangka dasar halaman utama sistem DIGIRO.
+3. Mengembangkan wireframe menjadi desain high-fidelity dengan memperhatikan konsistensi warna, tipografi, dan elemen visual yang sesuai dengan identitas institusi.
+4. Menghubungkan setiap halaman dan komponen antarmuka sehingga membentuk prototipe interaktif yang dapat digunakan untuk simulasi navigasi.
+
+## Hasil Praktikum
+
+Dihasilkan sebuah prototipe antarmuka DIGIRO yang interaktif dengan menerapkan prinsip-prinsip UI/UX yang berorientasi pada kemudahan penggunaan, meliputi:
+
+### 1. Halaman Login
+
+Menampilkan formulir masuk yang sederhana, mudah dipahami, serta dilengkapi indikator validasi untuk membantu pengguna saat memasukkan data autentikasi.
+
+### 2. Dashboard Penjaga Perpustakaan
+
+Menyediakan informasi penting dalam bentuk ringkasan visual, seperti jumlah buku yang sedang dipinjam, total anggota aktif, serta data keterlambatan pengembalian buku.
+
+### 3. Halaman Katalog Buku Siswa
+
+Memfasilitasi pencarian buku melalui fitur pencarian cepat dan penyaringan berdasarkan kategori tertentu, seperti Sains, Novel, dan Komputer.
+
+## Kesimpulan
+
+Perancangan antarmuka yang baik berperan penting dalam meningkatkan efisiensi penggunaan sistem. Dengan tata letak yang jelas dan navigasi yang mudah dipahami, pengguna dapat menyelesaikan aktivitas lebih cepat, mengurangi kesalahan saat memasukkan data, serta memperoleh pengalaman penggunaan yang lebih nyaman.
+
+## Tugas Kelompok
+
+Melaksanakan usability testing terhadap prototipe yang telah dibuat di Figma dengan melibatkan sedikitnya dua calon pengguna. Hasil pengujian digunakan sebagai dasar evaluasi dan penyempurnaan desain antarmuka agar lebih sesuai dengan kebutuhan pengguna.
