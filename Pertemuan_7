@@ -1,0 +1,87 @@
+# Pertemuan 7 – Perancangan Arsitektur Perangkat Lunak
+
+## Tujuan
+
+Praktikum ini bertujuan untuk memberikan pemahaman kepada mahasiswa mengenai konsep dan proses perancangan arsitektur perangkat lunak sebagai landasan utama dalam pengembangan sistem. Melalui kegiatan ini, mahasiswa diharapkan mampu menjelaskan struktur sistem, hubungan antar komponen, serta aliran data yang terjadi di dalam aplikasi sebelum tahap implementasi dilakukan.
+
+## Teori Singkat
+
+Arsitektur perangkat lunak merupakan representasi tingkat tinggi dari struktur sebuah sistem yang menggambarkan bagaimana komponen-komponen di dalam aplikasi saling berinteraksi untuk mencapai tujuan tertentu. Perancangan arsitektur yang baik berperan penting dalam meningkatkan kualitas perangkat lunak, mempermudah proses pengembangan, serta mendukung pemeliharaan sistem di masa mendatang.
+
+Terdapat berbagai pola arsitektur yang umum digunakan dalam pengembangan perangkat lunak, di antaranya **Layered Architecture**, **Model-View-Controller (MVC)**, dan **Client-Server Architecture**. Pemilihan pola arsitektur dilakukan berdasarkan kebutuhan sistem, kompleksitas aplikasi, serta karakteristik pengguna yang akan menggunakan sistem tersebut.
+
+## Bahan dan Alat
+
+Perangkat dan dokumen yang digunakan dalam kegiatan praktikum ini meliputi:
+
+* Draw.io atau aplikasi pemodelan diagram lainnya
+* Dokumen analisis dan perancangan sistem
+* Perangkat komputer atau laptop
+
+## Langkah-Langkah Praktikum
+
+### 1. Persiapan Perangkat Perancangan
+
+Membuka aplikasi pemodelan diagram yang akan digunakan untuk membuat rancangan arsitektur sistem. Selain itu, dilakukan peninjauan terhadap dokumen kebutuhan sistem sebagai acuan dalam proses perancangan.
+
+### 2. Analisis Kebutuhan Sistem
+
+Melakukan analisis terhadap kebutuhan pengguna dan tujuan pengembangan Digiro Sistem sebagai aplikasi perpustakaan digital. Pada tahap ini juga ditentukan pola arsitektur yang paling sesuai untuk mendukung operasional sistem, seperti penggunaan model Client-Server.
+
+### 3. Identifikasi Stakeholder
+
+Mengidentifikasi seluruh pihak yang terlibat dalam penggunaan maupun pengelolaan sistem. Setiap stakeholder dianalisis berdasarkan tugas, tanggung jawab, serta kebutuhan informasinya agar sistem yang dibangun mampu memenuhi kebutuhan seluruh pengguna.
+
+### 4. Penentuan Kebutuhan Fungsional
+
+Menentukan fungsi-fungsi utama yang harus tersedia dalam sistem, seperti pengelolaan data buku, proses peminjaman dan pengembalian buku, autentikasi pengguna, serta penyajian laporan aktivitas perpustakaan.
+
+### 5. Penyusunan Diagram Arsitektur
+
+Mendokumentasikan hasil analisis ke dalam bentuk diagram arsitektur yang menggambarkan hubungan antar komponen sistem, aliran data, serta interaksi antara pengguna dengan aplikasi secara terstruktur dan mudah dipahami.
+
+## Hasil Praktikum
+
+### Pemilihan Arsitektur dan Pertimbangan Desain
+
+Berdasarkan hasil analisis kebutuhan, Digiro Sistem dirancang menggunakan arsitektur yang terstruktur untuk mendukung pengelolaan data perpustakaan secara efektif. Pendekatan ini memungkinkan setiap komponen sistem memiliki fungsi yang jelas dan terpisah sehingga memudahkan proses pengembangan, pemeliharaan, serta pengelolaan keamanan data.
+
+Struktur sistem yang terorganisasi dengan baik juga membantu mengurangi risiko kesalahan pemrosesan data dan meningkatkan konsistensi dalam pengelolaan transaksi perpustakaan.
+
+### Identifikasi Pengguna Sistem
+
+#### 1. Penjaga Perpustakaan (Administrator)
+
+Penjaga perpustakaan bertanggung jawab dalam mengelola seluruh data yang terdapat pada sistem, termasuk proses penambahan, pembaruan, dan penghapusan data buku. Selain itu, pengguna ini juga berwenang mencatat transaksi peminjaman dan pengembalian buku.
+
+#### 2. Siswa (Anggota Perpustakaan)
+
+Siswa berperan sebagai pengguna utama yang memanfaatkan sistem untuk mencari informasi koleksi buku, melihat katalog yang tersedia, serta memantau riwayat aktivitas peminjaman yang pernah dilakukan.
+
+#### 3. Kepala Sekolah
+
+Kepala sekolah menggunakan sistem sebagai sarana monitoring dan evaluasi aktivitas perpustakaan. Informasi yang dapat diakses meliputi laporan transaksi, statistik peminjaman, dan berbagai data pendukung yang berkaitan dengan operasional perpustakaan.
+
+#### 4. Developer
+
+Developer bertugas merancang, mengembangkan, memperbaiki, dan memelihara sistem agar tetap berjalan sesuai kebutuhan pengguna serta mampu beradaptasi terhadap perkembangan kebutuhan di masa mendatang.
+
+### Kebutuhan Fungsional Sistem
+
+Beberapa kebutuhan fungsional utama yang berhasil diidentifikasi dalam Digiro Sistem meliputi:
+
+* Sistem autentikasi login dengan hak akses yang berbeda untuk setiap jenis pengguna.
+* Modul pengelolaan data buku yang mendukung operasi Create, Read, Update, dan Delete (CRUD).
+* Fitur peminjaman dan pengembalian buku yang dilengkapi validasi ketersediaan stok.
+* Penyajian laporan transaksi dan aktivitas perpustakaan dalam bentuk informasi yang mudah dipahami.
+* Pengelolaan data anggota perpustakaan dan riwayat transaksi.
+
+## Kesimpulan
+
+Perancangan arsitektur perangkat lunak merupakan tahap fundamental dalam pengembangan Digiro Sistem karena menjadi pedoman utama dalam proses implementasi aplikasi. Melalui identifikasi stakeholder, analisis kebutuhan fungsional, dan penyusunan diagram arsitektur yang sistematis, pengembangan sistem dapat dilakukan secara lebih terarah dan efisien.
+
+Selain itu, rancangan arsitektur yang baik mampu meningkatkan kualitas perangkat lunak, mempermudah pemeliharaan sistem, serta memastikan bahwa aplikasi yang dikembangkan benar-benar sesuai dengan kebutuhan operasional perpustakaan sekolah.
+
+## Tugas Kelompok
+
+Menyusun dokumen **Software Architecture Document (SAD)** sederhana yang menjelaskan mekanisme autentikasi login multi-level pada Digiro Sistem untuk pengguna Administrator Perpustakaan, Siswa, dan Kepala Sekolah. Dokumen tersebut harus dilengkapi dengan diagram arsitektur yang menggambarkan alur data, proses autentikasi, serta interaksi antar komponen sistem secara jelas dan terstruktur.
