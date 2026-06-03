@@ -1,0 +1,28 @@
+LAPORAN PRAKTIKUM: EVALUASI PROYEK, DEMONSTRASI PRODUK, DAN PRESENTASI FINAL PERANGKAT LUNAK DIGIRO SISTEM
+Luthfiyah Ramadhani (Designer)
+
+Tujuan Praktikum
+Tujuan dari praktikum ini adalah untuk memaparkan hasil akhir dari pengembangan Digiro Sistem, menampilkan simulasi proses sirkulasi buku secara menyeluruh (end-to-end) kepada dewan penguji, serta melakukan penilaian terhadap keberhasilan manajemen proyek tim. Penilaian ini diukur berdasarkan tolok ukur ketepatan waktu, mutu produk, dan pemenuhan spesifikasi fungsional yang telah direncanakan.
+Dasar Teori
+Tahap evaluasi akhir pada Software Development Life Cycle (SDLC) berperan krusial dalam menakar tingkat keberhasilan implementasi sebuah rekayasa perangkat lunak. Parameter keberhasilan ini merujuk pada Triple Constraints, yang mencakup: pencapaian target jadwal (timeline), keselarasan dengan Software Requirement Specification (SRS), dan keandalan sistem (reliability) ketika dijalankan secara langsung. Selain itu, tahap ini juga mencakup tinjauan pasca-proyek guna mengidentifikasi utang teknis (technical debt) sebagai acuan untuk pemeliharaan perangkat lunak di masa mendatang.
+
+Alat dan Bahan
+Pelaksanaan proses pengujian dan evaluasi ini memerlukan sejumlah instrumen teknis maupun administratif, antara lain:
+•	Materi presentasi (pitch deck).
+•	Proyektor atau media share screen.
+•	Aplikasi Digiro Sistem versi production yang sudah dapat diakses melalui server publik (live deployment).
+•	Logbook untuk keperluan pencatatan evaluasi internal kelompok.
+
+Langkah-Langkah Praktikum
+1.	Persiapan Materi Presentasi: Mengembangkan slide presentasi yang memuat latar belakang, perancangan arsitektur sistem, Entity-Relationship Diagram (ERD) basis data, dan nilai tambah dari sistem perpustakaan Digiro.
+2.	Pembagian Peran Tim: Mendistribusikan peran di antara anggota kelompok (meliputi moderator, pemateri teori/arsitektur, dan pelaksana demonstrasi) agar alur presentasi berjalan lancar dan optimal.
+3.	Demonstrasi Sistem Langsung (Live Product Demo): Melakukan uji coba operasional aplikasi secara langsung di hadapan penguji dengan memperagakan alur lengkap sirkulasi perpustakaan:
+4.	Pencatatan dan Evaluasi: Mendokumentasikan masukan, kritik, serta pertanyaan dari dosen penguji, sekaligus merefleksikan berbagai kendala internal yang dialami tim selama masa pengerjaan proyek.
+
+Hasil Praktikum
+Sesi penilaian akhir proyek perangkat lunak Digiro Sistem Berbasis Perpustakaan telah terlaksana dengan lancar, dan seluruh fungsi esensialnya terbukti valid. Merujuk pada umpan balik dari dewan penguji, tim mencatat beberapa poin evaluasi di dalam logbook internal sebagai acuan perbaikan pada pembaruan sistem berikutnya (maintenance release), yakni:
+•	Penyempurnaan Fitur: Peningkatan kecepatan dan efisiensi algoritma pada fungsi pencarian buku.
+•	Peningkatan Keamanan Data: Penerapan metode enkripsi yang lebih ketat (password hashing) untuk melindungi kata sandi pengguna sebelum masuk ke basis data.
+Kesimpulan
+Melalui evaluasi final ini, dapat disimpulkan bahwa Digiro Sistem telah sukses memberikan solusi atas kebutuhan otomatisasi administrasi perpustakaan sekolah. Pencapaian ini merupakan hasil dari kombinasi perancangan arsitektur yang kuat, penerapan struktur basis data yang ternormalisasi, pengembangan antarmuka yang mudah digunakan (user-friendly), serta tahapan penyebaran (deployment) server yang berjalan dengan sukses dan stabil.
+
