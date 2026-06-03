@@ -1,0 +1,65 @@
+# Pertemuan 9 – Perancangan Basis Data
+
+## Tujuan
+
+Praktikum ini bertujuan untuk memberikan pemahaman kepada mahasiswa mengenai proses perancangan basis data yang sistematis dan terstruktur sebagai fondasi utama dalam pengembangan sistem informasi. Melalui kegiatan ini, mahasiswa diharapkan mampu merancang struktur data yang efisien, terorganisasi, dan mampu mendukung kebutuhan fungsional aplikasi yang akan dibangun.
+
+## Teori Singkat
+
+Basis data merupakan kumpulan data yang disusun secara terstruktur dan digunakan untuk menyimpan, mengelola, serta menyediakan informasi yang dibutuhkan oleh suatu sistem. Dalam pengembangan perangkat lunak, perancangan basis data menjadi tahap yang sangat penting karena berpengaruh langsung terhadap kinerja, keamanan, dan integritas data.
+
+Proses perancangan basis data umumnya dilakukan dengan menggunakan **Entity Relationship Diagram (ERD)** untuk memodelkan hubungan antarentitas serta teknik **normalisasi** untuk mengurangi redundansi data dan mencegah terjadinya anomali dalam pengelolaan informasi. Dengan struktur basis data yang baik, sistem dapat mengelola data secara lebih efektif dan efisien.
+
+## Bahan dan Alat
+
+Perangkat lunak yang digunakan dalam praktikum ini adalah:
+
+* MySQL sebagai Database Management System (DBMS)
+* Perangkat komputer atau laptop
+* Perangkat perancangan diagram basis data
+
+## Langkah-Langkah Praktikum
+
+### 1. Identifikasi Entitas Sistem
+
+Melakukan analisis terhadap kebutuhan sistem perpustakaan untuk menentukan entitas-entitas utama yang akan dikelola dalam basis data. Entitas yang berhasil diidentifikasi meliputi data buku, anggota atau siswa, petugas perpustakaan, transaksi peminjaman, serta detail transaksi peminjaman.
+
+### 2. Penentuan Atribut dan Hubungan Data
+
+Menentukan atribut yang dimiliki oleh masing-masing entitas beserta tipe data yang sesuai, seperti `VARCHAR`, `INT`, dan `DATE`. Selain itu, ditetapkan pula hubungan antarentitas dengan memanfaatkan **Primary Key (PK)** dan **Foreign Key (FK)** untuk menjaga keterhubungan serta konsistensi data dalam sistem.
+
+### 3. Pembuatan Model Basis Data
+
+Menyusun **Entity Relationship Diagram (ERD)** dan **Class Diagram** sebagai representasi visual dari struktur basis data yang akan diterapkan. Diagram tersebut digunakan untuk menggambarkan hubungan antarentitas sekaligus menjadi acuan dalam proses implementasi database.
+
+### 4. Proses Normalisasi
+
+Melakukan normalisasi terhadap struktur data hingga mencapai **Third Normal Form (3NF)**. Tahap ini bertujuan untuk menghilangkan duplikasi data, meminimalkan redundansi, serta mencegah terjadinya anomali pada proses penyimpanan, pembaruan, maupun penghapusan data.
+
+## Hasil Praktikum
+
+Praktikum menghasilkan rancangan basis data yang terdokumentasi dengan baik dalam bentuk ERD, Class Diagram, serta struktur relasi antar-tabel yang telah memenuhi kaidah normalisasi hingga tingkat 3NF.
+
+Beberapa hubungan utama yang berhasil dirancang dalam sistem antara lain sebagai berikut:
+
+### 1. Hubungan antara Petugas dan Peminjaman
+
+Tabel petugas dihubungkan dengan tabel peminjaman untuk menyimpan informasi mengenai petugas yang menangani setiap transaksi peminjaman buku. Relasi ini memungkinkan sistem mencatat riwayat aktivitas petugas secara akurat.
+
+### 2. Hubungan antara Siswa dan Peminjaman
+
+Tabel siswa memiliki keterkaitan dengan tabel peminjaman guna menyimpan identitas anggota perpustakaan yang melakukan transaksi peminjaman buku. Dengan demikian, setiap aktivitas peminjaman dapat ditelusuri berdasarkan pengguna yang bersangkutan.
+
+### 3. Hubungan antara Peminjaman dan Buku
+
+Relasi antara tabel peminjaman dan tabel buku dibangun melalui tabel penghubung bernama **detail_peminjaman**. Penggunaan tabel perantara ini memungkinkan satu transaksi peminjaman mencakup beberapa buku sekaligus tanpa menyebabkan redundansi data maupun masalah integritas basis data.
+
+## Kesimpulan
+
+Perancangan basis data yang dilakukan secara terstruktur memberikan landasan yang kuat bagi pengembangan Digiro Sistem. Melalui pemanfaatan ERD dan proses normalisasi hingga bentuk normal ketiga (3NF), struktur data yang dihasilkan menjadi lebih efisien, konsisten, dan mudah dikelola.
+
+Selain meningkatkan performa dalam proses pengolahan data dan eksekusi kueri, rancangan basis data yang baik juga mampu menjaga integritas informasi serta memastikan riwayat transaksi perpustakaan tersimpan secara akurat dan berkelanjutan dalam jangka panjang.
+
+## Tugas Kelompok
+
+Menyusun naskah SQL menggunakan **Data Definition Language (DDL)** yang berisi sintaks `CREATE TABLE` lengkap dengan penetapan atribut, tipe data, primary key, foreign key, serta berbagai constraint yang diperlukan. Struktur basis data yang telah dirancang kemudian diuji menggunakan MySQL untuk memastikan seluruh relasi antar-tabel berjalan sesuai dengan kebutuhan sistem perpustakaan.
