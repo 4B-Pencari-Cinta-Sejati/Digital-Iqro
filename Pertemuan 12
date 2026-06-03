@@ -1,0 +1,24 @@
+Pertemuan 12 – Pengujian Perangkat Lunak
+Luthfiyah Ramadhani (Designer)
+
+Tujuan: Mahasiswa mampu melakukan pengujian terhadap program, sistem dan fungsi yang telah dibangun.
+Teori Singkat: Pengujian bertujuan menemukan kesalahan sebelum sistem digunakan. 
+Jenis testing: Black-box, White-box, Unit testing.
+Bahan dan Alat: Test case template, aplikasi web Digiro Sistem yang aktif.
+
+Tahapan Praktikum
+Penyusunan Rencana Uji: Menyiapkan dokumen Test Case Template yang terstruktur untuk memvalidasi fitur-fitur utama sistem, seperti Login, Tambah Buku, dan Pencarian Buku.
+Eksekusi Pengujian: Menjalankan proses testing secara menyeluruh menggunakan berbagai skenario, mulai dari input data yang valid hingga pengujian pada kondisi ekstrem (edge cases).
+Observasi dan Dokumentasi: Memantau respons sistem terhadap setiap skenario uji dan mencatat status akhirnya secara tertulis, baik itu Berhasil (Pass) maupun Gagal (Fail).
+Pelacakan Bug: Mengidentifikasi letak kesalahan atau anomali sistem (jika ada), lalu mencatatnya secara rinci ke dalam tabel penelusuran masalah.
+
+Output Praktikum
+Praktikum ini menghasilkan dokumen laporan pengujian perangkat lunak yang sistematis dan jelas. Beberapa contoh hasil pengujiannya meliputi:
+Pengujian Login Pustakawan: Menggunakan data akun yang valid berhasil masuk ke sistem (Status: PASS).
+Pengujian Transaksi (Stok Kosong): Saat simulasi peminjaman dengan stok buku 0, aplikasi sukses menampilkan peringatan "Stok Buku Habis" dan otomatis menolak penyimpanan data (Status: PASS).
+
+Kesimpulan
+Fase pengujian (testing) memberikan validasi yang objektif bahwa fungsionalitas krusial pada Digiro Sistem telah beroperasi secara andal. Proses ini memastikan aplikasi siap mendukung alur operasional perpustakaan sekolah sekaligus meminimalisasi risiko terjadinya kerusakan atau anomali data di kemudian hari.
+
+Penugasan Kelompok
+Rancanglah sebuah matriks uji fungsionalitas (test case matrix) yang terdiri dari minimal 10 baris skenario pengujian. Pengujian ini difokuskan secara khusus pada modul pengembalian buku terlambat (termasuk fitur kalkulasi denda otomatis), dan wajib disusun menggunakan format tabel pengujian standar.
