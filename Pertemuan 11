@@ -1,0 +1,58 @@
+# Pertemuan 11 – Version Control dan Kolaborasi Tim
+
+## Tujuan
+
+Praktikum ini bertujuan untuk memberikan pemahaman kepada mahasiswa mengenai penerapan sistem pengelolaan versi (*version control*) dalam pengembangan perangkat lunak, serta melatih kemampuan bekerja secara kolaboratif dalam tim menggunakan platform manajemen kode sumber yang terstruktur.
+
+## Teori Singkat
+
+**Version Control System (VCS)** merupakan suatu sistem yang digunakan untuk mengelola, menyimpan, dan melacak setiap perubahan yang terjadi pada kode sumber selama proses pengembangan perangkat lunak. Dengan memanfaatkan VCS, pengembang dapat mengetahui riwayat perubahan kode, mengembalikan versi sebelumnya apabila terjadi kesalahan, serta mempermudah koordinasi kerja antaranggota tim dalam mengembangkan suatu proyek secara bersamaan.
+
+Salah satu implementasi VCS yang paling banyak digunakan adalah Git yang dipadukan dengan GitHub sebagai platform penyimpanan dan kolaborasi berbasis cloud. Penggunaan kedua teknologi tersebut memungkinkan proses pengembangan perangkat lunak dilakukan secara lebih terorganisasi, aman, dan efisien.
+
+## Bahan dan Alat
+
+Perangkat dan aplikasi yang digunakan dalam praktikum ini meliputi:
+
+* Git
+* GitHub
+* Visual Studio Code
+* Proyek Digiro Sistem
+
+## Langkah-Langkah Praktikum
+
+### 1. Inisialisasi Repository Lokal
+
+Membuat repository Git pada direktori proyek Digiro Sistem menggunakan perintah `git init`. Tahap ini dilakukan sebagai langkah awal untuk menerapkan sistem pengelolaan versi pada proyek yang sedang dikembangkan.
+
+### 2. Pembuatan Berkas .gitignore
+
+Menyusun berkas `.gitignore` untuk menentukan file dan direktori yang tidak perlu disertakan dalam repository. Beberapa contoh file yang biasanya dikecualikan adalah folder dependensi, file cache, serta berkas konfigurasi sementara yang tidak diperlukan dalam proses kolaborasi.
+
+### 3. Integrasi dengan Repository GitHub
+
+Menghubungkan repository lokal dengan repository yang berada pada platform GitHub melalui konfigurasi *remote repository*. Setelah koneksi berhasil dibuat, dilakukan commit awal yang berisi struktur dasar proyek kemudian dikirim ke cabang utama (*main* atau *master*).
+
+### 4. Pembuatan Branch Pengembangan
+
+Membuat beberapa cabang pengembangan (*branch*) untuk mendukung pembagian tugas antaranggota tim. Setiap cabang digunakan untuk mengembangkan fitur tertentu secara terpisah sehingga proses pengembangan dapat berlangsung secara paralel tanpa mengganggu kode utama.
+
+### 5. Kolaborasi dan Penggabungan Kode
+
+Melakukan proses *pull request* sebagai sarana pengajuan perubahan kode yang telah dikerjakan. Selain itu, dilakukan standarisasi format *commit message* agar riwayat perubahan lebih mudah dipahami serta penyelesaian konflik kode (*conflict resolution*) apabila ditemukan perbedaan saat proses penggabungan (*merge*) antarbranch.
+
+## Hasil Praktikum
+
+Praktikum menghasilkan repository GitHub Digiro Sistem yang dikelola menggunakan Git secara aktif dan sesuai dengan praktik pengembangan perangkat lunak modern. Seluruh perubahan kode terdokumentasi dengan baik melalui riwayat commit yang tersusun secara jelas dan konsisten.
+
+Selain itu, aktivitas kolaborasi antaranggota tim dapat dipantau secara transparan melalui pencatatan branch, commit, pull request, dan proses merge yang tersimpan dalam repository. Penggabungan berbagai fitur yang dikembangkan pada branch terpisah berhasil dilakukan tanpa mengganggu stabilitas kode pada cabang utama sehingga kualitas proyek tetap terjaga.
+
+## Kesimpulan
+
+Penerapan Git dan GitHub dalam pengembangan Digiro Sistem memberikan manfaat yang signifikan terhadap efektivitas kerja tim. Sistem version control membantu mengurangi risiko kehilangan kode, memudahkan pelacakan perubahan yang dilakukan selama proses pengembangan, serta meningkatkan koordinasi antaranggota tim dalam menyelesaikan proyek secara bersama-sama.
+
+Selain itu, kemampuan Git dalam mengelola cabang pengembangan, mencatat riwayat perubahan, dan menangani konflik kode menjadikan proses pengembangan perangkat lunak lebih terstruktur, aman, dan mudah dikendalikan. Dengan demikian, penggunaan version control menjadi salah satu aspek penting dalam praktik rekayasa perangkat lunak modern.
+
+## Tugas Kelompok
+
+Melakukan simulasi konflik kode (*code conflict*) yang melibatkan beberapa anggota tim pada satu berkas controller yang sama. Setelah konflik berhasil dibuat, seluruh anggota kelompok diminta untuk bekerja sama menyelesaikan konflik tersebut menggunakan fitur *merge* dan *conflict resolution* yang tersedia pada Visual Studio Code hingga menghasilkan kode yang konsisten, bebas kesalahan, dan dapat dijalankan dengan baik.
