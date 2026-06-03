@@ -1,0 +1,48 @@
+# Pertemuan 13 – Dokumentasi dan Deployment
+
+## Tujuan
+
+Mahasiswa diharapkan mampu menyusun dokumentasi sistem secara menyeluruh, mulai dari dokumentasi pengguna, dokumentasi teknis, hingga rencana pemeliharaan sistem yang telah dikembangkan. Selain itu, mahasiswa juga mampu melakukan proses deployment sehingga aplikasi dapat digunakan oleh pengguna secara nyata.
+
+## Teori Singkat
+
+Dokumentasi merupakan salah satu komponen penting dalam pengembangan perangkat lunak karena berfungsi sebagai pedoman bagi pengguna maupun pengembang dalam mengoperasikan, memelihara, dan mengembangkan sistem di masa mendatang. Sementara itu, deployment merupakan proses memindahkan aplikasi dari lingkungan pengembangan ke lingkungan produksi agar dapat diakses dan digunakan secara luas oleh pengguna.
+
+## Bahan dan Alat
+
+* Markdown atau Microsoft Word
+* Hosting atau layanan cloud (opsional)
+* Aplikasi Digiro Sistem
+* Database MySQL
+
+## Langkah-Langkah Praktikum
+
+### 1. Penyusunan Dokumentasi Pengguna
+
+Membuat panduan penggunaan (User Manual) yang menjelaskan fungsi-fungsi utama sistem secara jelas dan mudah dipahami oleh petugas perpustakaan. Dokumentasi ini mencakup langkah-langkah operasional, navigasi menu, serta prosedur penggunaan fitur yang tersedia.
+
+### 2. Penyusunan Dokumentasi Teknis
+
+Menyusun dokumentasi teknis yang berisi informasi mengenai arsitektur aplikasi, struktur kode program, rancangan basis data, serta hubungan antar-komponen sistem. Dokumentasi ini ditujukan untuk mendukung proses pemeliharaan dan pengembangan sistem dalam jangka panjang.
+
+### 3. Persiapan Berkas Rilis Sistem
+
+Menyiapkan seluruh file proyek beserta cadangan basis data dalam format `.sql` yang akan digunakan pada proses distribusi dan implementasi sistem di lingkungan produksi.
+
+### 4. Simulasi Deployment
+
+Melakukan simulasi proses deployment dengan memindahkan aplikasi dari lingkungan pengembangan lokal (localhost) ke server hosting atau layanan cloud. Tahap ini bertujuan untuk memastikan aplikasi dapat berjalan dengan baik dan dapat diakses melalui jaringan internet.
+
+## Hasil Praktikum
+
+Praktikum menghasilkan dokumentasi yang lengkap dan terstruktur, baik untuk kebutuhan pengguna maupun tim teknis. Dokumentasi tersebut memberikan panduan yang jelas mengenai cara penggunaan sistem serta informasi teknis yang diperlukan untuk pengelolaan dan pengembangan aplikasi di masa depan.
+
+Selain itu, proses deployment berhasil dilakukan sehingga Digiro Sistem Berbasis Perpustakaan dapat diakses melalui jaringan publik. Seluruh fitur utama aplikasi berjalan dengan baik setelah dipindahkan ke lingkungan hosting, menunjukkan bahwa sistem siap digunakan dalam kondisi operasional sebenarnya.
+
+## Kesimpulan
+
+Tahap dokumentasi dan deployment merupakan bagian akhir yang sangat penting dalam siklus pengembangan perangkat lunak. Dokumentasi yang baik akan mempermudah proses penggunaan, pemeliharaan, dan pengembangan sistem di kemudian hari. Sementara itu, keberhasilan deployment menunjukkan bahwa aplikasi perpustakaan telah berhasil ditransformasikan dari sekadar proyek pengembangan lokal menjadi layanan berbasis web yang dapat diakses secara luas melalui internet.
+
+## Tugas Kelompok
+
+Menyusun sebuah panduan singkat satu halaman yang menjelaskan prosedur penambahan akun siswa baru pada sistem perpustakaan. Panduan tersebut harus ditulis dengan bahasa yang sederhana, jelas, dan mudah dipahami oleh petugas atau penjaga perpustakaan sehingga dapat digunakan sebagai referensi operasional sehari-hari.
