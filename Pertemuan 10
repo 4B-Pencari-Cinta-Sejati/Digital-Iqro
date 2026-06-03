@@ -1,0 +1,24 @@
+Pertemuan 10 – Implementasi Perangkat Lunak (Coding)
+Luthfiyah Ramadhani (Designer)
+
+Tujuan: Mahasiswa mampu membuat koding sesuai dengan perancangan sistem.
+Teori Singkat: Implementasi adalah proses mengubah desain menjadi kode program.
+Bahan dan Alat: IDE (Visual Studio Code), Framework (Laravel)
+
+Tahapan Praktikum
+Inisialisasi Proyek: Menyiapkan dan menyusun struktur direktori proyek baru secara rapi di dalam IDE atau text editor.
+Konfigurasi Database: Mengatur parameter koneksi basis data melalui file konfigurasi lingkungan (seperti .env).
+Penerapan Arsitektur MVC: Membangun kerangka aplikasi dengan pola Model, View, Controller (MVC), sekaligus menyiapkan file migrasi database perpustakaan.
+Penulisan Logika Program: Mengimplementasikan kode (coding) untuk setidaknya dua fitur inti, yaitu fungsionalitas CRUD data buku dan logika perhitungan transaksi sirkulasi (peminjaman).
+
+Output Praktikum
+Praktikum ini menghasilkan source code aplikasi Digiro Sistem yang berjalan lancar, berstruktur rapi, dan sangat presisi dengan rancangan antarmuka (UI/UX) yang telah dibuat sebelumnya.
+Pencapaian spesifik dari sistem ini meliputi:
+Keberhasilan menyimpan record data buku baru ke dalam database MySQL.
+Kemampuan menampilkan tabel daftar buku tersebut secara dinamis pada antarmuka web perpustakaan.
+
+Kesimpulan
+Fase pengembangan (coding) ini sukses mengintegrasikan logika bisnis aplikasi dengan database perpustakaan. Langkah ini berhasil mentransformasikan kerangka rancangan (blueprint) menjadi sebuah produk digital yang siap beroperasi penuh.
+
+Penugasan Kelompok
+Selesaikan pembuatan fitur validasi pada sisi server (backend validation) untuk form input buku. Pastikan sistem mampu memfilter data yang tidak sesuai, seperti mencegah nilai stok minus (negatif) dan memastikan kolom judul buku wajib diisi.
