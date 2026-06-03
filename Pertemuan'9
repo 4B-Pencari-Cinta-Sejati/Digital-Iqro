@@ -1,0 +1,49 @@
+# Pertemuan 9 – Perancangan Basis Data
+
+**Abdullah Nawap Lukman (Tester)**
+
+## Tujuan
+
+Mahasiswa diharapkan mampu merancang struktur basis data yang sesuai dengan kebutuhan sistem yang akan dikembangkan sehingga dapat mendukung proses pengelolaan data secara efektif dan efisien.
+
+## Teori Singkat
+
+Perancangan basis data dilakukan dengan memanfaatkan Entity Relationship Diagram (ERD) serta proses normalisasi. Kedua metode tersebut digunakan untuk membangun struktur data yang terorganisasi dengan baik, meminimalkan redundansi, dan menjaga konsistensi data.
+
+## Bahan dan Alat
+
+* MySQL
+
+## Tahapan Praktikum
+
+### 1. Identifikasi Entitas
+
+Tahap awal dilakukan dengan mengidentifikasi seluruh entitas utama yang terdapat dalam sistem perpustakaan, yaitu Buku, Siswa (Anggota), Petugas, Peminjaman, dan Detail Peminjaman.
+
+### 2. Penentuan Atribut dan Kunci
+
+Setiap entitas kemudian didefinisikan atribut-atributnya beserta tipe data yang digunakan, seperti VARCHAR, INT, dan DATE. Selain itu, ditentukan pula Primary Key (PK) dan Foreign Key (FK) untuk membangun hubungan antar-tabel.
+
+### 3. Perancangan Model Sistem
+
+Struktur basis data yang telah dirancang divisualisasikan dalam bentuk Entity Relationship Diagram (ERD) dan Class Diagram guna mempermudah pemahaman hubungan antar-entitas dalam sistem.
+
+### 4. Normalisasi Data
+
+Proses normalisasi dilakukan hingga mencapai Third Normal Form (3NF) dengan tujuan mengurangi duplikasi data, mencegah anomali, dan meningkatkan integritas basis data.
+
+## Output Praktikum
+
+Hasil praktikum berupa dokumen rancangan basis data yang mencakup ERD, Class Diagram, serta struktur relasi antar-tabel yang telah memenuhi standar 3NF. Adapun relasi yang terbentuk meliputi:
+
+* Relasi Petugas dan Peminjaman, yang digunakan untuk mencatat petugas yang bertanggung jawab dalam setiap transaksi peminjaman.
+* Relasi Siswa dan Peminjaman, yang berfungsi menyimpan data anggota perpustakaan yang melakukan peminjaman buku.
+* Relasi Peminjaman dan Buku, yang diimplementasikan melalui tabel penghubung Detail Peminjaman sehingga satu transaksi dapat memuat beberapa buku sekaligus tanpa menimbulkan anomali data.
+
+## Kesimpulan
+
+Perancangan basis data yang baik dan terstruktur memiliki peran penting dalam meningkatkan performa sistem, khususnya dalam proses pengelolaan dan pencarian data sirkulasi perpustakaan. Selain itu, desain basis data yang tepat dapat menjaga integritas, konsistensi, dan validitas data transaksi sehingga informasi yang tersimpan tetap akurat dan dapat diandalkan dalam jangka panjang.
+
+## Penugasan Kelompok
+
+Buatlah sebuah naskah SQL menggunakan perintah Data Definition Language (DDL). Fokus utama tugas ini adalah menyusun sintaks CREATE TABLE lengkap dengan berbagai constraint yang mendefinisikan hubungan antar-tabel. Selanjutnya, rancangan tersebut harus diuji dan diimplementasikan menggunakan DBMS MySQL.
