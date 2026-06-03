@@ -1,0 +1,24 @@
+Pertemuan 8 – Perancangan Antarmuka (UI/UX)
+Luthfiyah Ramadhani (Designer)
+
+Tujuan: Mahasiswa dapat menggambarkan dan mengimplementasikan tampilan/navigasi yang memudahkan pengguna pada sistem yang akan digunakan.
+Teori Singkat: UI/UX berfokus pada kenyamanan dan kemudahan penggunaan sistem.
+Bahan dan Alat: Figma
+
+Tahapan Praktikum
+Penyusunan User Flow: Merancang alur langkah pengguna untuk proses pencarian literatur oleh siswa, serta prosedur penanganan peminjaman oleh pustakawan.
+Pembuatan Wireframe: Membangun sketsa kerangka dasar (low-fidelity) untuk halaman beranda Digiro Sistem.
+Pengembangan Mockup UI: Mengubah desain kerangka dasar menjadi antarmuka visual yang detail (high-fidelity) dengan mengaplikasikan palet warna institusi yang profesional.
+Pembuatan Prototipe: Menautkan antar-halaman dan komponen untuk menyusun sebuah prototipe sederhana yang interaktif dan dapat dinavigasikan.
+
+Output Praktikum
+Praktikum ini menghasilkan prototipe antarmuka Digiro Sistem yang interaktif dan berpedoman pada standar UI/UX yang tepat. Elemen utamanya meliputi:
+Halaman Login: Dirancang dengan formulir isian yang rapi (clean design) serta indikator validasi visual yang jelas.
+Dashboard Pustakawan: Menyajikan visualisasi grafik ringkas mengenai data sirkulasi, meliputi jumlah buku yang sedang dipinjam, total anggota yang aktif, dan data buku yang terlambat dikembalikan.
+Katalog Buku untuk Siswa: Antarmuka eksplorasi perpustakaan yang dilengkapi kolom pencarian dinamis serta fitur penyaringan (filter) berdasarkan kategori spesifik (seperti Sains, Komputer, dan Novel).
+
+Kesimpulan
+Perencanaan desain antarmuka (UI/UX) yang komprehensif sangat krusial karena efektif dalam mengurangi beban kognitif pengguna saat mengoperasikan sistem. Desain yang optimal juga berdampak langsung pada percepatan sirkulasi buku harian dan penurunan risiko kesalahan input data oleh operator perpustakaan.
+
+Penugasan Kelompok
+Laksanakan pengujian kegunaan (usability testing) tahap awal terhadap prototipe Figma yang telah disusun. Pengujian ini wajib melibatkan setidaknya dua orang calon pengguna potensial guna mengumpulkan masukan (feedback) yang nantinya digunakan sebagai acuan untuk menyempurnakan tata letak (layout) aplikasi.
