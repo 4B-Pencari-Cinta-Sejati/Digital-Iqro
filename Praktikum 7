@@ -1,32 +1,30 @@
-Analisis Proses Bisnis: Input Data Buku (DIGIRO):
-Designer
+Pertemuan 7 – Perancangan Arsitektur Perangkat Lunak
+Luthfiyah Ramadhani (Designer)
 
-Instansi: Universitas Muhammadiyah Prof. Dr. Hamka (UHAMKA)
+Tujuan: Mahasiswa dapat menjelaskan arsitektur sistem yang akan dikembangkan.
+Teori Singkat: Arsitektur perangkat lunak menggambarkan struktur sistem secara keseluruhan (layered, MVC, client-server).
+Bahan dan Alat: Diagram Tool (Draw.io).
 
-1. Narasi Alur Proses Bisnis (Business Process)
-Prosedur pengelolaan inventaris buku baru oleh Admin pada sistem DIGIRO dirinci sebagai berikut:
+Tahapan Praktikum
+Persiapan: Siapkan tools pemodelan atau buka dokumen perancangan arsitektur perangkat lunak.
+Analisis & Tujuan: Tentukan model arsitektur yang akan digunakan (misalnya Client-Server) dan rumuskan sasaran utama dari pengembangan "Digiro Sistem Berbasis Perpustakaan".
+Pemetaan Stakeholder: Identifikasi siapa saja yang terlibat (Pustakawan, Siswa, Kepala Sekolah, dan Tim Pengembang) beserta tugas dan perannya masing-masing.
+Penentuan Fitur Inti: Jabarkan kebutuhan fungsional utama sistem, seperti pengelolaan katalog buku, serta proses peminjaman dan pengembalian.
+Dokumentasi: Gambarkan seluruh hasil analisis di atas ke dalam bentuk diagram blok arsitektur yang terstruktur.
 
-Inisiasi: Admin mengakses menu "Input Data" pada aplikasi setelah proses autentikasi berhasil.
+Output Praktikum
+Pemilihan Arsitektur & Argumentasi:
+Sistem ini menggunakan pendekatan arsitektur terstruktur untuk memastikan sistem berjalan stabil saat mengelola inventaris dan sirkulasi buku. Pemisahan komponen secara logis dilakukan guna mencegah risiko hilangnya data.
+Identifikasi Pengguna (Diagram Arsitektur):
+Pustakawan (Admin): Mengontrol manajemen data buku (CRUD) dan mencatat seluruh alur peminjaman serta pengembalian.
+Siswa/i (Anggota): Memiliki akses untuk mencari literatur pada katalog dan mengecek riwayat pinjaman pribadi.
+Kepala Sekolah (Manajemen): Memantau operasional perpustakaan melalui rekap laporan sirkulasi (bulanan maupun tahunan).
+Developer (Tim Teknis): Merancang, membangun, dan memelihara sistem agar tetap berjalan sesuai dengan ruang lingkup yang disepakati.
+Spesifikasi Fungsional:
+Sistem harus dilengkapi dengan validasi login untuk berbagai tipe pengguna, modul pengelolaan (CRUD) data buku, sistem pencatatan peminjaman otomatis yang terintegrasi dengan pembaruan stok, serta fitur untuk menampilkan visualisasi laporan sirkulasi.
 
-Input Data: Admin melengkapi parameter informasi buku (Judul, Penulis, Penerbit, Tahun, dan Stok).
+Kesimpulan:
+Pembuatan desain arsitektur di tahap awal—melalui identifikasi kebutuhan fitur dan penggunanya—merupakan fondasi penting dalam membangun Digiro Sistem. Langkah ini memastikan proses penulisan kode (coding) oleh developer tidak melenceng dari alur operasional perpustakaan yang sebenarnya.
 
-Validasi: Saat instruksi simpan dipicu, sistem melakukan verifikasi integritas dan kelengkapan data.
-
-Percabangan Kondisi:
-
-Gagal: Jika data tidak lengkap, sistem memunculkan pesan galat (error) dan mengarahkan kembali ke formulir.
-
-Sukses: Jika data valid, sistem mengeksekusi penyimpanan ke pangkalan data.
-
-Finalisasi: Sistem menerbitkan notifikasi keberhasilan dan memperbarui daftar pustaka secara otomatis.
-
-2. Spesifikasi Notasi UML (Activity Diagram)
-Untuk menjamin akurasi teknis pada Activity Diagram, pastikan penggunaan elemen standar berikut:
-
-Initial Node: Simbol lingkaran hitam solid sebagai titik awal saat Admin membuka menu input.
-
-Action States: Persegi panjang dengan sudut tumpul untuk merepresentasikan aktivitas fungsional sistem dan aktor.
-
-Decision Node: Simbol belah ketupat untuk logika pengecekan "Data Lengkap?". Sertakan label "Ya" untuk melanjutkan penyimpanan dan "Tidak" untuk pengulangan input.
-
-Final Node: Simbol lingkaran hitam dengan garis tepi lingkaran sebagai tanda berakhirnya seluruh rangkaian proses.
+Penugasan Kelompok
+Buatlah sebuah dokumen Software Architecture Document (SAD) versi ringkas. Dokumen ini harus memuat diagram blok arsitektur yang memvisualisasikan alur data pada proses autentikasi login untuk berbagai level pengguna (multi-level login), yaitu Admin Perpustakaan, Siswa, dan Kepala Sekolah.
