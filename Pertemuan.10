@@ -1,0 +1,56 @@
+# Pertemuan 10 – Implementasi Perangkat Lunak (Coding)
+
+## Tujuan
+
+Praktikum ini bertujuan untuk memberikan kemampuan kepada mahasiswa dalam mengimplementasikan hasil analisis dan perancangan sistem ke dalam bentuk kode program sehingga dapat menghasilkan aplikasi yang berfungsi sesuai dengan kebutuhan pengguna dan spesifikasi yang telah ditetapkan.
+
+## Teori Singkat
+
+Implementasi perangkat lunak merupakan salah satu tahapan penting dalam proses pengembangan sistem yang berfokus pada penerjemahan desain dan rancangan aplikasi menjadi kode program yang dapat dijalankan oleh komputer. Pada tahap ini, seluruh komponen sistem yang telah dirancang sebelumnya mulai direalisasikan menjadi aplikasi yang memiliki fungsi dan fitur sesuai kebutuhan pengguna.
+
+Melalui proses implementasi, pengembang mengintegrasikan antarmuka pengguna, logika bisnis, serta basis data sehingga terbentuk sebuah sistem yang mampu beroperasi secara efektif dan mendukung proses bisnis yang diinginkan.
+
+## Bahan dan Alat
+
+Perangkat dan aplikasi yang digunakan dalam praktikum ini meliputi:
+
+* Visual Studio Code sebagai *Integrated Development Environment* (IDE)
+* Laravel Framework sebagai kerangka kerja pengembangan aplikasi web
+* Database MySQL
+* Perangkat komputer atau laptop
+
+## Langkah-Langkah Praktikum
+
+### 1. Inisialisasi Proyek
+
+Membuat struktur proyek baru dengan susunan direktori yang terorganisasi dan sesuai dengan standar pengembangan aplikasi. Tahap ini bertujuan untuk mempermudah pengelolaan file serta mendukung proses pengembangan yang lebih sistematis.
+
+### 2. Konfigurasi Koneksi Basis Data
+
+Melakukan pengaturan parameter koneksi database pada berkas konfigurasi lingkungan, seperti file `.env`, sehingga aplikasi dapat terhubung dengan sistem manajemen basis data yang digunakan untuk menyimpan dan mengelola informasi perpustakaan.
+
+### 3. Pembangunan Struktur Aplikasi
+
+Mengembangkan komponen utama aplikasi berdasarkan pola arsitektur **Model-View-Controller (MVC)**. Kegiatan ini meliputi pembuatan model untuk pengelolaan data, view untuk antarmuka pengguna, controller untuk mengatur logika aplikasi, serta migration yang digunakan untuk membangun struktur tabel pada basis data.
+
+### 4. Implementasi Fitur Inti Sistem
+
+Mengembangkan logika program untuk mendukung fitur-fitur utama yang terdapat pada Digiro Sistem. Implementasi dilakukan pada fungsi pengelolaan data buku melalui operasi **Create, Read, Update, Delete (CRUD)** serta proses transaksi peminjaman dan pengelolaan sirkulasi buku dalam perpustakaan.
+
+## Hasil Praktikum
+
+Praktikum menghasilkan source code Digiro Sistem yang telah berhasil diimplementasikan dan dapat berjalan sesuai dengan kebutuhan operasional perpustakaan. Struktur kode yang dihasilkan tersusun secara rapi, terorganisasi, dan mengikuti pola pengembangan yang telah dirancang sebelumnya.
+
+Aplikasi mampu melakukan proses penyimpanan data buku baru ke dalam basis data MySQL secara berhasil. Selain itu, sistem dapat menampilkan daftar koleksi buku secara dinamis melalui halaman web perpustakaan sehingga informasi yang ditampilkan selalu sesuai dengan data yang tersimpan pada database.
+
+Implementasi yang dilakukan juga menunjukkan tingkat kesesuaian yang tinggi dengan rancangan antarmuka pengguna (UI/UX) yang telah dibuat pada tahap perancangan sebelumnya.
+
+## Kesimpulan
+
+Tahap implementasi perangkat lunak berhasil mengubah rancangan sistem yang sebelumnya masih berupa konsep dan blueprint menjadi sebuah aplikasi digital yang dapat digunakan secara nyata. Integrasi antara logika bisnis, antarmuka pengguna, dan basis data telah berjalan dengan baik sehingga sistem mampu mendukung proses pengelolaan perpustakaan secara efektif.
+
+Melalui proses coding yang terstruktur, Digiro Sistem berhasil diwujudkan sebagai aplikasi yang fungsional, mudah digunakan, dan sesuai dengan kebutuhan pengguna dalam mengelola data serta aktivitas sirkulasi perpustakaan.
+
+## Tugas Kelompok
+
+Mengembangkan fitur validasi pada formulir input data buku di sisi backend untuk memastikan kualitas dan konsistensi data yang disimpan ke dalam sistem. Validasi yang diterapkan harus mampu memeriksa berbagai ketentuan, seperti memastikan stok buku tidak bernilai negatif, judul buku wajib diisi, serta mencegah penyimpanan data yang tidak sesuai dengan aturan yang telah ditetapkan.
