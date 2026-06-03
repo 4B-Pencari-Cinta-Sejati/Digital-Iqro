@@ -1,0 +1,46 @@
+# Pertemuan 10 – Implementasi Perangkat Lunak (Coding)
+
+## Tujuan
+
+Mahasiswa diharapkan mampu mengimplementasikan rancangan sistem yang telah dibuat ke dalam bentuk kode program sehingga menghasilkan aplikasi yang dapat dijalankan sesuai kebutuhan.
+
+## Teori Singkat
+
+Implementasi perangkat lunak merupakan tahapan pengembangan sistem yang berfokus pada penerjemahan hasil analisis dan perancangan menjadi kode program yang dapat dieksekusi oleh komputer. Pada tahap ini, seluruh fungsi dan fitur yang telah dirancang mulai diwujudkan menjadi sistem yang operasional.
+
+## Bahan dan Alat
+
+* Visual Studio Code (IDE)
+* Laravel Framework
+
+## Langkah-Langkah Praktikum
+
+### 1. Inisialisasi Proyek
+
+Membuat dan menyiapkan struktur direktori proyek baru secara terorganisir menggunakan text editor atau Integrated Development Environment (IDE) yang digunakan dalam proses pengembangan.
+
+### 2. Konfigurasi Basis Data
+
+Melakukan pengaturan koneksi database dengan mengisi parameter yang diperlukan pada berkas konfigurasi lingkungan, seperti file `.env`, agar aplikasi dapat terhubung dengan sistem manajemen basis data.
+
+### 3. Pengembangan Arsitektur Aplikasi
+
+Membangun komponen utama aplikasi berdasarkan pola arsitektur Model-View-Controller (MVC), termasuk pembuatan model, view, controller, serta migration yang digunakan untuk membentuk struktur tabel pada basis data perpustakaan.
+
+### 4. Implementasi Fitur Utama
+
+Mengembangkan logika aplikasi untuk mendukung sedikitnya dua fitur inti sistem, yaitu pengelolaan data buku melalui operasi CRUD (Create, Read, Update, Delete) dan proses pengolahan transaksi peminjaman atau sirkulasi buku.
+
+## Hasil Praktikum
+
+Praktikum menghasilkan source code aplikasi Digiro Sistem yang telah berfungsi dengan baik sesuai kebutuhan pengguna. Struktur kode tersusun secara sistematis dan memiliki tingkat kesesuaian yang tinggi dengan rancangan antarmuka pengguna (UI/UX) yang telah dibuat sebelumnya.
+
+Aplikasi mampu melakukan proses penyimpanan data buku baru ke dalam database MySQL secara sukses. Selain itu, sistem juga dapat menampilkan informasi koleksi buku secara dinamis melalui halaman web perpustakaan, sehingga data yang tersaji selalu diperbarui berdasarkan isi database.
+
+## Kesimpulan
+
+Tahap implementasi perangkat lunak berhasil menghubungkan logika bisnis aplikasi dengan basis data perpustakaan secara efektif. Melalui proses coding, rancangan sistem yang sebelumnya berupa blueprint berhasil diwujudkan menjadi aplikasi digital yang dapat digunakan untuk mendukung aktivitas pengelolaan perpustakaan.
+
+## Tugas Kelompok
+
+Melengkapi pengembangan sistem dengan menambahkan mekanisme validasi pada formulir input data buku di sisi backend. Validasi yang diterapkan harus mampu memastikan bahwa data yang dimasukkan memenuhi ketentuan yang telah ditetapkan, seperti nilai stok tidak boleh bernilai negatif dan kolom judul buku wajib diisi sebelum data dapat disimpan ke dalam sistem.
