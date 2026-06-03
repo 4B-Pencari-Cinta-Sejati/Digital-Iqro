@@ -1,0 +1,69 @@
+# LAPORAN PRAKTIKUM: PRESENTASI AKHIR, DEMONSTRASI PRODUK, DAN EVALUASI PROYEK PERANGKAT LUNAK DIGIRO SISTEM
+
+## Tujuan Praktikum
+
+Praktikum ini bertujuan untuk menyajikan hasil akhir pengembangan Digiro Sistem kepada dewan penguji, melakukan demonstrasi menyeluruh terhadap seluruh alur operasional sistem perpustakaan, serta mengevaluasi tingkat keberhasilan proyek berdasarkan aspek manajemen waktu, kualitas produk, dan kesesuaian implementasi terhadap kebutuhan pengguna yang telah ditetapkan sejak awal pengembangan.
+
+## Dasar Teori
+
+Evaluasi akhir merupakan salah satu tahap penting dalam siklus pengembangan perangkat lunak atau Software Development Life Cycle (SDLC). Tahap ini bertujuan untuk mengukur tingkat keberhasilan produk yang telah dikembangkan melalui serangkaian indikator yang telah ditentukan.
+
+Keberhasilan suatu proyek perangkat lunak umumnya diukur berdasarkan konsep **Triple Constraints**, yaitu ketercapaian target waktu pengerjaan (timeline), kesesuaian implementasi dengan kebutuhan fungsional yang telah didefinisikan dalam dokumen **Software Requirement Specification (SRS)**, serta kualitas dan stabilitas sistem ketika digunakan secara langsung oleh pengguna.
+
+Selain itu, evaluasi akhir juga mencakup kegiatan refleksi dan analisis pasca-proyek untuk mengidentifikasi berbagai kekurangan yang masih terdapat pada sistem. Hasil analisis tersebut digunakan sebagai dasar penyusunan rencana pengembangan dan pemeliharaan sistem di masa mendatang, termasuk pencatatan technical debt yang perlu diselesaikan pada versi berikutnya.
+
+## Alat dan Bahan
+
+Pelaksanaan presentasi, demonstrasi, dan evaluasi proyek didukung oleh beberapa perangkat dan dokumen pendukung, antara lain:
+
+* Slide presentasi proyek (pitch deck)
+* Laptop dan perangkat presentasi
+* Proyektor atau media berbagi layar (screen sharing)
+* Digiro Sistem versi produksi yang telah diimplementasikan pada server publik
+* Logbook evaluasi internal kelompok
+* Dokumen hasil pengembangan proyek
+
+## Langkah-Langkah Praktikum
+
+### 1. Penyusunan Materi Presentasi
+
+Menyusun materi presentasi yang memuat gambaran umum proyek, latar belakang permasalahan, tujuan pengembangan sistem, rancangan arsitektur aplikasi, struktur basis data melalui Entity Relationship Diagram (ERD), serta berbagai keunggulan yang dimiliki oleh Digiro Sistem dibandingkan metode pengelolaan perpustakaan secara konvensional.
+
+### 2. Pembagian Tugas Tim
+
+Melakukan pembagian tanggung jawab di dalam kelompok agar proses presentasi berjalan lebih efektif. Setiap anggota diberikan peran sesuai kompetensi masing-masing, seperti moderator presentasi, pemapar materi teknis dan arsitektur sistem, serta demonstrator yang bertugas menjalankan aplikasi secara langsung di hadapan penguji.
+
+### 3. Demonstrasi Produk Secara Langsung
+
+Melaksanakan simulasi penggunaan sistem secara real-time dengan memperagakan seluruh proses bisnis utama perpustakaan yang telah diimplementasikan dalam aplikasi. Alur yang didemonstrasikan meliputi:
+
+**Pencarian Buku oleh Siswa → Proses Peminjaman oleh Pustakawan → Pengembalian Buku → Penyusunan dan Peninjauan Laporan oleh Kepala Sekolah**
+
+Demonstrasi dilakukan untuk membuktikan bahwa seluruh fitur utama sistem dapat berjalan secara terintegrasi dan sesuai dengan kebutuhan operasional perpustakaan.
+
+### 4. Dokumentasi dan Evaluasi
+
+Mencatat seluruh pertanyaan, masukan, kritik, dan saran yang diberikan oleh dosen penguji selama sesi presentasi berlangsung. Selain itu, kelompok juga melakukan evaluasi internal terhadap proses pengembangan yang telah dilaksanakan, termasuk mengidentifikasi kendala teknis maupun nonteknis yang muncul selama pengerjaan proyek.
+
+## Hasil Praktikum
+
+Kegiatan presentasi dan evaluasi akhir Digiro Sistem Berbasis Perpustakaan berhasil dilaksanakan dengan baik. Berdasarkan hasil demonstrasi yang dilakukan, seluruh fitur utama sistem dapat berjalan sesuai dengan fungsi yang telah dirancang dan dinyatakan memenuhi kebutuhan dasar operasional perpustakaan sekolah.
+
+Dari proses evaluasi yang dilakukan oleh dewan penguji, diperoleh beberapa rekomendasi pengembangan yang telah didokumentasikan sebagai bahan perbaikan pada versi berikutnya. Beberapa rekomendasi tersebut meliputi:
+
+### 1. Peningkatan Performa Sistem
+
+Perlu dilakukan optimalisasi pada mekanisme pencarian buku agar proses pencarian data menjadi lebih cepat dan efisien, terutama ketika jumlah koleksi buku dalam basis data terus bertambah.
+
+### 2. Penguatan Keamanan Data
+
+Diperlukan peningkatan keamanan data pengguna melalui penerapan teknik hashing kata sandi yang lebih kuat serta pengelolaan autentikasi yang lebih aman untuk melindungi data dari potensi ancaman keamanan siber.
+
+Seluruh catatan evaluasi tersebut telah dicatat dalam logbook proyek dan akan menjadi dasar pengembangan pada tahap maintenance release di masa mendatang.
+
+## Kesimpulan
+
+Berdasarkan hasil presentasi, demonstrasi produk, dan evaluasi akhir yang telah dilakukan, dapat disimpulkan bahwa Digiro Sistem berhasil memenuhi tujuan utama pengembangannya sebagai solusi digital untuk pengelolaan administrasi perpustakaan sekolah. Sistem mampu mendukung proses sirkulasi buku secara terintegrasi, mulai dari pencarian koleksi, peminjaman, pengembalian, hingga penyajian laporan.
+
+Keberhasilan tersebut didukung oleh penerapan arsitektur sistem yang terstruktur, desain basis data yang telah dinormalisasi dengan baik, antarmuka pengguna yang mudah digunakan, serta proses deployment yang berhasil dilakukan pada lingkungan server sehingga aplikasi dapat diakses secara stabil oleh pengguna. Dengan demikian, Digiro Sistem dinilai layak untuk digunakan dan terus dikembangkan sebagai sarana modernisasi layanan perpustakaan berbasis teknologi informasi.
+
